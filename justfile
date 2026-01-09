@@ -7,6 +7,7 @@ push FLAGS="-u" BRANSH="aurora":
     git push {{FLAGS}} gitlab {{BRANSH}}
     git push {{FLAGS}} codeberg {{BRANSH}}
     git push {{FLAGS}} disroot {{BRANSH}}
+    git push {{FLAGS}} tangled {{BRANSH}}
 
 publish PKG:
     aurpublish {{PKG}}
