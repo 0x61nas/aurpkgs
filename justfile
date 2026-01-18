@@ -14,4 +14,4 @@ publish PKG:
     aurpublish {{PKG}}
 
 clean:
-    git clean -fdx
+    git clean -ffdx
