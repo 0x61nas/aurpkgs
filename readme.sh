@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
+
 set -euo pipefail
 
-echo "# AUR Packages"
+echo "## Anas's AUR Packages"
 echo
-echo "| Package | Description | Version |"
-echo "|--------|-------------|---------|"
+echo "| Package | Description | Version | Arch |"
+echo "|---------|-------------|---------|------|"
 
 for dir in */; do
     case "$dir" in
@@ -13,7 +14,7 @@ for dir in */; do
 
     [ -f "$dir/PKGBUILD" ] || continue
 
-    unset pkgname pkgdesc pkgver pkgrel epoch
+    unset pkgname pkgdesc pkgver pkgrel epoch arch
     source "$dir/PKGBUILD"
 
     if [[ -n "${epoch:-}" ]]; then
@@ -22,5 +23,9 @@ for dir in */; do
         ver="${pkgver}-${pkgrel}"
     fi
 
-    echo "| \`${pkgname}\` | ${pkgdesc} | ${ver} |"
+    arch_str=$(IFS=','; echo "${arch[*]}")
+
+    echo "| \`${pkgname}\` | ${pkgdesc} | ${ver} | ${arch_str} |"
 done
+
+echo ""

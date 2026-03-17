@@ -2,6 +2,9 @@ alias p := push
 alias pub := publish
 alias c := clean
 
+readme:
+    bash readme.sh > readme.md
+
 push FLAGS="-u" BRANSH="aurora":
     git push {{FLAGS}} github {{BRANSH}}
     git push {{FLAGS}} gitlab {{BRANSH}}
