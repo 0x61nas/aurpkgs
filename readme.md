@@ -46,6 +46,7 @@
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
+| `purple` | Simple CLI tool to convert the images to ASCII art | 2.3.0-1 | x86_64,aarch64,armv7h,riscv64 |
 | `rdn-git` | Rusty Dos Navigator | r5.c43cd78-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `selx-git` | Minimal X11 selection tool | 1.2.0.r12.g436a948-1 | i686,x86_64 |
