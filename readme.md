@@ -40,6 +40,7 @@
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.beta.2.r5.g71c6ffb-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
+| `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.7.5.r2.g9e7ac95-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
