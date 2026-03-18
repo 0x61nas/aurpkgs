@@ -47,7 +47,7 @@
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.5.0-1 | x86_64,aarch64,armv7h,riscv64 |
-| `purple-bin` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.3.0-1 | x86_64,aarch64 |
+| `purple-bin` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.5.0-1 | x86_64,aarch64 |
 | `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.3.0-1 | x86_64,aarch64,armv7h,riscv64 |
 | `rdn-git` | Rusty Dos Navigator | r5.c43cd78-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
