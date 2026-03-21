@@ -58,7 +58,7 @@
 | `tsql` | A modern PostgreSQL manager TUI | 0.5.0-1 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL manager TUI - Binary build | 0.5.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL manager TUI | 0.2.0.r66.g4518df8-2 | x86_64,aarch64 |
-| `zen-c` | Write like a high-level language, run like C. | 0.4.3-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.1.r4.g27d9d4f-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r35.6b0a0e7-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.2.1-1 | x86_64,aarch64 |
