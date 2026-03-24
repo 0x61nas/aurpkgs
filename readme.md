@@ -43,6 +43,7 @@
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.7.5.r2.g9e7ac95-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
+| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
