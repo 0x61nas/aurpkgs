@@ -55,6 +55,7 @@
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r0.g60ebce5-1 | x86_64,aarch64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r6.g004cf31-1 | i686,x86_64 |
+| `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL manager TUI | 0.5.0-1 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL manager TUI - Binary build | 0.5.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL manager TUI | 0.2.0.r66.g4518df8-2 | x86_64,aarch64 |
