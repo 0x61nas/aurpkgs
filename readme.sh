@@ -9,7 +9,7 @@ echo "|---------|-------------|---------|------|"
 
 for dir in */; do
     case "$dir" in
-        .git/|.github/) continue ;;
+        .git/|.github/|.templates/) continue ;;
     esac
 
     [ -f "$dir/PKGBUILD" ] || continue
