@@ -51,6 +51,7 @@
 | `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.3.0-1 | x86_64,aarch64,armv7h,riscv64 |
 | `rdn-git` | Rusty Dos Navigator | r5.c43cd78-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
+| `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 1.2.0.r12.g436a948-1 | i686,x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r0.g60ebce5-1 | x86_64,aarch64 |
