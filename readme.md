@@ -21,6 +21,7 @@
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ctags-lsp-git` | LSP implementation using universal-ctags as backend - Build from the main branch | 0.11.0.r0.g1ff8bc8-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `darya` |  Disk usage explorer with a TUI and live treemap | 0.1.5-1 | x86_64,aarch64 |
+| `darya-git` |  Disk usage explorer with a TUI and live treemap | 0.1.5.r1.g1f70c99-1 | x86_64,aarch64 |
 | `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r55.g7749df2-1 | x86_64,aarch64 |
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
