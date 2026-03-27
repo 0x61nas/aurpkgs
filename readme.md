@@ -3,15 +3,15 @@
 | Package | Description | Version | Arch |
 |---------|-------------|---------|------|
 | `aarty` | Simple CLI tool to convert the images to ASCII art | 0.8.2-3 | x86_64,aarch64,armv7h,riscv64 |
-| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.1.r0.g29a34de-1 | x86_64,aarch64,armv7h,riscv64 |
+| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.2.r1.g8e580bc-1 | x86_64,aarch64,armv7h,riscv64 |
 | `archy-dwm` | Dynamic window manager for X with some patches applied | 1.0.0-3 | i686,x86_64 |
-| `archy-dwm-git` | A dynamic window manager for X with some patches applied | 1.0.0.r1.gfeb819c-1 | i686,x86_64 |
+| `archy-dwm-git` | A dynamic window manager for X with some patches applied | 1.0.0.r37.g85c22fd-1 | i686,x86_64 |
 | `archy-screenshot` | Simple script helper to take screenshots with `lqth` | 1.0.0-3 | any |
-| `archy-screenshot-git` | Simple script helper to take screenshots with `lqth` | 1.0.0-2 | any |
+| `archy-screenshot-git` | Simple script helper to take screenshots with `lqth` | 1.0.0.r0.g8d91047-1 | any |
 | `archy-scripts` | The archy linux utilty scripts | 0.0.2-1 | any |
-| `archy-scripts-git` | The archy linux utilty scripts | 0.0.2.r9.gf46c73c-1 | any |
+| `archy-scripts-git` | The archy linux utilty scripts | 0.0.2.r15.g7ab9f8a-1 | any |
 | `archy-slstatus` | suckless status monitor for archy linux | 1.0.1-1 | i686,x86_64 |
-| `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.0.r1.g55b9d57-3 | i686,x86_64 |
+| `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.1.r4.g27b258b-1 | i686,x86_64 |
 | `archy-st` | Simple terminal emulator for X with some patches applied | 0.10.3-3 | i686,x86_64 |
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
@@ -24,19 +24,19 @@
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r131.ge1fea03-1 | x86_64,aarch64 |
+| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r146.g4b8c01f-1 | x86_64,aarch64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
-| `fitui-git` | Terminal-based personal finance tracker | 0.1.5.r0.g58d7d35-1 | x86_64,aarch64 |
+| `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.1.2-4 | i686,x86_64 |
-| `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.1.2.r6.gbe76aec-3 | i686,x86_64 |
+| `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.1.2.r8.gc1db9aa-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
-| `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.0.r2.g67cf536-1 | x86_64,aarch64 |
+| `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.beta.2.r5.g71c6ffb-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
