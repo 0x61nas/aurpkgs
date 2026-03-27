@@ -5,6 +5,9 @@ alias c := clean
 readme:
     bash readme.sh > readme.md
 
+update-vcs-packages:
+    bash update-vcs.sh
+
 push FLAGS="-u" BRANSH="aurora":
     git push {{FLAGS}} github {{BRANSH}}
     git push {{FLAGS}} gitlab {{BRANSH}}
