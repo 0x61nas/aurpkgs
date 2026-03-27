@@ -41,7 +41,8 @@
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.beta.2.r5.g71c6ffb-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.7.5.r2.g9e7ac95-1 | x86_64,aarch64,armv7h,riscv64 |
-| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r2.g0bf2888-1 | x86_64 |
+| `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
+| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r2.g0bf2888-2 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
