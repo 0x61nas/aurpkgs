@@ -3,7 +3,7 @@
 | Package | Description | Version | Arch |
 |---------|-------------|---------|------|
 | `aarty` | Simple CLI tool to convert the images to ASCII art | 0.8.2-3 | x86_64,aarch64,armv7h,riscv64 |
-| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.2.r1.g8e580bc-1 | x86_64,aarch64,armv7h,riscv64 |
+| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.1.r0.g29a34de-1 | x86_64,aarch64,armv7h,riscv64 |
 | `archy-dwm` | Dynamic window manager for X with some patches applied | 1.0.0-3 | i686,x86_64 |
 | `archy-dwm-git` | A dynamic window manager for X with some patches applied | 1.0.0.r37.g85c22fd-1 | i686,x86_64 |
 | `archy-screenshot` | Simple script helper to take screenshots with `lqth` | 1.0.0-3 | any |
@@ -20,6 +20,7 @@
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ctags-lsp-git` | LSP implementation using universal-ctags as backend - Build from the main branch | 0.11.0.r0.g1ff8bc8-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `darya` |  Disk usage explorer with a TUI and live treemap | 0.1.5-1 | x86_64,aarch64 |
 | `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r55.g7749df2-1 | x86_64,aarch64 |
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
@@ -53,23 +54,23 @@
 | `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.13.0-1 | x86_64,aarch64,armv7h,riscv64 |
 | `purple-bin` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.13.0-1 | x86_64,aarch64 |
 | `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | v2.13.0.r2.g7d01f4e-1 | x86_64,aarch64,armv7h,riscv64 |
-| `rdn-git` | Rusty Dos Navigator | r5.c43cd78-1 | x86_64 |
+| `rdn-git` | Rusty Dos Navigator | r9.2c8c340-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0-1 | x86_64,aarch64,riscv64 |
-| `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0.r9.gede95ea-1 | x86_64,aarch64,riscv64 |
-| `selx-git` | Minimal X11 selection tool | 1.2.0.r12.g436a948-1 | i686,x86_64 |
+| `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0.r10.gb9ca302-1 | x86_64,aarch64,riscv64 |
+| `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
-| `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r0.g60ebce5-1 | x86_64,aarch64 |
-| `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r6.g004cf31-1 | i686,x86_64 |
+| `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
+| `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r13.g772d2d0-1 | i686,x86_64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL manager TUI | 0.5.0-1 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL manager TUI - Binary build | 0.5.0-1 | x86_64 |
-| `tsql-git` | A modern PostgreSQL manager TUI | 0.2.0.r66.g4518df8-2 | x86_64,aarch64 |
+| `tsql-git` | A modern PostgreSQL manager TUI | 0.5.0.r7.gdc2da4a-1 | x86_64,aarch64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r5.ge210bc0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zenc-git` | Write like a high-level language, run like C. | r35.6b0a0e7-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r25.g836ea2b-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zenc-git` | Write like a high-level language, run like C. | r775.836ea2b-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.2.1-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.0-2 | x86_64 |
-| `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.2.9.r1.g5882d53-1 | x86_64 |
+| `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.0.r1.g59b8147-1 | x86_64 |
 
