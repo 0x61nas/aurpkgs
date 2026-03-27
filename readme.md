@@ -24,7 +24,7 @@
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r146.g4b8c01f-1 | x86_64,aarch64 |
+| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r147.g1ac1ab6-1 | x86_64,aarch64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
