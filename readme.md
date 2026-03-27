@@ -38,9 +38,9 @@
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
-| `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.beta.2.r5.g71c6ffb-1 | x86_64,aarch64 |
+| `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r27.g33afe22-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
-| `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.7.5.r2.g9e7ac95-1 | x86_64,aarch64,armv7h,riscv64 |
+| `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.8.4.r24.g4e8a596-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r2.g0bf2888-2 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
@@ -48,11 +48,11 @@
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r0.g4e62115-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
-| `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0-1 | any |
+| `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.13.0-1 | x86_64,aarch64,armv7h,riscv64 |
 | `purple-bin` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.13.0-1 | x86_64,aarch64 |
-| `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | 2.3.0-1 | x86_64,aarch64,armv7h,riscv64 |
+| `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | v2.13.0.r2.g7d01f4e-1 | x86_64,aarch64,armv7h,riscv64 |
 | `rdn-git` | Rusty Dos Navigator | r5.c43cd78-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0-1 | x86_64,aarch64,riscv64 |
