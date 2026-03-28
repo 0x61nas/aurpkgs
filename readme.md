@@ -63,6 +63,7 @@
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r13.g772d2d0-1 | i686,x86_64 |
+| `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r4.g2d6531e-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL manager TUI | 0.5.0-1 | x86_64,aarch64 |
