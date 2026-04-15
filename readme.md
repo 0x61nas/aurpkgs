@@ -17,6 +17,7 @@
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `budget-tracker` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
