@@ -20,7 +20,7 @@
 | `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-2 | x86_64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
 | `classfi` | A simple classical music player | 0.1.1-1 | x86_64,aarch64,riscv64 |
-| `classfi-bin` | A simple classical music player | 0.1.0-1 | x86_64 |
+| `classfi-bin` | A simple classical music player | 0.1.1-1 | x86_64 |
 | `classfi-git` | A simple classical music player | 0.1.0.r0.g4af3333-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
@@ -77,7 +77,7 @@
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r4.g2d6531e-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
-| `tsql` | A modern PostgreSQL manager TUI | 0.5.0-1 | x86_64,aarch64 |
+| `tsql` | A modern PostgreSQL manager TUI | 0.6.0-1 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL manager TUI - Binary build | 0.5.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL manager TUI | 0.5.0.r7.gdc2da4a-1 | x86_64,aarch64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
