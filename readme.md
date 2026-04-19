@@ -19,6 +19,7 @@
 | `budget-tracker` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-1 | x86_64,aarch64,riscv64 |
 | `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-2 | x86_64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
+| `chess-cat-git` | Visualize chess boards in your terminal | r7.0af984e-1 | x86_64,aarch64,riscv64 |
 | `classfi` | A simple classical music player | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `classfi-bin` | A simple classical music player | 0.1.1-1 | x86_64 |
 | `classfi-git` | A simple classical music player | 0.1.0.r0.g4af3333-1 | x86_64,aarch64,riscv64 |
@@ -70,6 +71,8 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0.r10.gb9ca302-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19-1 | x86_64,aarch64,riscv64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19-1 | x86_64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
