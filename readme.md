@@ -78,7 +78,7 @@
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL manager TUI | 0.6.0-1 | x86_64,aarch64 |
-| `tsql-bin` | A modern PostgreSQL manager TUI - Binary build | 0.5.0-1 | x86_64 |
+| `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL manager TUI | 0.5.0.r7.gdc2da4a-1 | x86_64,aarch64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r25.g836ea2b-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
