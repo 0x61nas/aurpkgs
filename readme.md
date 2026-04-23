@@ -43,54 +43,54 @@
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.1.2-4 | i686,x86_64 |
-| `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.1.2.r8.gc1db9aa-1 | i686,x86_64 |
+| `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
-| `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r27.g33afe22-1 | x86_64,aarch64 |
+| `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.9.14.r1.gb8f37fd-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
-| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r2.g0bf2888-2 | x86_64,aarch64 |
+| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0-1 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
-| `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r0.g4e62115-1 | x86_64,aarch64,riscv64 |
+| `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r2.gf059f69-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3-1 | x86_64,aarch64,riscv64 |
 | `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3-1 | x86_64,aarch64 |
-| `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.1.r0.g15c7371-1 | x86_64,aarch64,riscv64 |
+| `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
 | `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (12 providers), password management. Edits ~/.ssh/config directly. | 2.14.2-1 | x86_64,aarch64,armv7h,riscv64 |
 | `purple-bin` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (12 providers), password management. Edits ~/.ssh/config directly. | 2.14.2-1 | x86_64,aarch64 |
 | `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | v2.13.0.r2.g7d01f4e-1 | x86_64,aarch64,armv7h,riscv64 |
 | `rdn-git` | Rusty Dos Navigator | r9.2c8c340-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5-1 | x86_64,aarch64,riscv64 |
-| `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0.r10.gb9ca302-1 | x86_64,aarch64,riscv64 |
+| `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
 | `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20-1 | x86_64,aarch64,riscv64 |
 | `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20-1 | x86_64 |
-| `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19.r19.gf83a1bb-1 | x86_64,aarch64,riscv64 |
+| `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20.r0.g27e4604-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r13.g772d2d0-1 | i686,x86_64 |
-| `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r4.g2d6531e-1 | x86_64,aarch64 |
+| `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
 | `tuicr` | a terminal UI for local code review | 0.10.0-1 | x86_64,aarch64,riscv64 |
-| `tuicr-git` | a terminal UI for local code review | 0.10.0.r3.gfec146c-1 | x86_64,aarch64,riscv64 |
+| `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r25.g836ea2b-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zenc-git` | Write like a high-level language, run like C. | r775.836ea2b-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.2.1-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.0-2 | x86_64 |
-| `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.0.r1.g59b8147-1 | x86_64 |
+| `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.3.r0.g73cf013-1 | x86_64 |
 
