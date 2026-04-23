@@ -1,0 +1,29 @@
+pkgbase = lrcget-git
+	pkgdesc = Utility for mass-downloading LRC synced lyrics for your offline music library.
+	pkgver = 2.0.0.r0.g01fab65
+	pkgrel = 1
+	url = https://github.com/tranxuanthang/lrcget
+	arch = x86_64
+	arch = aarch64
+	license = MIT
+	makedepends = cargo
+	makedepends = nodejs
+	makedepends = npm
+	makedepends = cargo-tauri
+	makedepends = openssl
+	makedepends = pkgconf
+	makedepends = git
+	depends = webkit2gtk-4.1
+	depends = libappindicator
+	depends = librsvg
+	depends = gcc-libs
+	provides = lrcget
+	conflicts = lrcget
+	conflicts = lrcget-bin
+	options = !lto
+	source = lrcget-main::git+https://github.com/tranxuanthang/lrcget.git#branch=main
+	source = lrcget
+	sha256sums = SKIP
+	sha256sums = b051010628a791599d33437a23e352dac46db9aa09bf466fee106ef70d952f7f
+
+pkgname = lrcget-git
