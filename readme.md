@@ -3,7 +3,7 @@
 | Package | Description | Version | Arch |
 |---------|-------------|---------|------|
 | `aarty` | Simple CLI tool to convert the images to ASCII art | 0.8.2-3 | x86_64,aarch64,armv7h,riscv64 |
-| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.1.r0.g29a34de-1 | x86_64,aarch64,armv7h,riscv64 |
+| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.2.r5.ge9b7c62-1 | x86_64,aarch64,armv7h,riscv64 |
 | `archy-dwm` | Dynamic window manager for X with some patches applied | 1.0.0-3 | i686,x86_64 |
 | `archy-dwm-git` | A dynamic window manager for X with some patches applied | 1.0.0.r37.g85c22fd-1 | i686,x86_64 |
 | `archy-screenshot` | Simple script helper to take screenshots with `lqth` | 1.0.0-3 | any |
@@ -22,18 +22,18 @@
 | `chess-cat-git` | Visualize chess boards in your terminal | r7.0af984e-1 | x86_64,aarch64,riscv64 |
 | `classfi` | A simple classical music player | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `classfi-bin` | A simple classical music player | 0.1.1-1 | x86_64 |
-| `classfi-git` | A simple classical music player | 0.1.0.r0.g4af3333-1 | x86_64,aarch64,riscv64 |
+| `classfi-git` | A simple classical music player | 0.1.1.r0.g2efaa3f-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `ctags-lsp-git` | LSP implementation using universal-ctags as backend - Build from the main branch | 0.11.0.r0.g1ff8bc8-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `ctags-lsp-git` | LSP implementation using universal-ctags as backend - Build from the main branch | 0.11.0.r8.gfe3d1f8-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `darya` |  Disk usage explorer with a TUI and live treemap | 0.1.5-1 | x86_64,aarch64 |
 | `darya-git` |  Disk usage explorer with a TUI and live treemap | 0.1.5.r1.g1f70c99-1 | x86_64,aarch64 |
-| `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r55.g7749df2-1 | x86_64,aarch64 |
+| `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r58.g755c838-1 | x86_64,aarch64 |
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r147.g1ac1ab6-1 | x86_64,aarch64 |
+| `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r148.g4250850-1 | x86_64,aarch64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
@@ -44,7 +44,6 @@
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.1.2-4 | i686,x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.1.2.r8.gc1db9aa-1 | i686,x86_64 |
-| `hzfind-git` | a terminal UI for local code review | 0.10.0.r3.gfec146c-1 | x86_64,aarch64,riscv64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
