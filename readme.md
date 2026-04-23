@@ -44,6 +44,7 @@
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.1.2-4 | i686,x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.1.2.r8.gc1db9aa-1 | i686,x86_64 |
+| `hzfind-git` | a terminal UI for local code review | 0.10.0.r3.gfec146c-1 | x86_64,aarch64,riscv64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
@@ -55,6 +56,7 @@
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r2.g0bf2888-2 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
+| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0-1 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r0.g4e62115-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
@@ -71,8 +73,8 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.0.r10.gb9ca302-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19-2 | x86_64,aarch64,riscv64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19-2 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20-1 | x86_64,aarch64,riscv64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.19.r19.gf83a1bb-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
