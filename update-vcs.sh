@@ -16,24 +16,10 @@ for dir in *-git; do
 
     makepkg --nobuild --nodeps --noprepare
 
-    unset pkgname pkgver pkgrel epoch
-    source PKGBUILD
-
-    oldver="$pkgver"
-
-    if declare -f pkgver >/dev/null; then
-        newver="$(pkgver)"
-    else
-        popd >/dev/null || continue
-        continue
-    fi
-
-    if [[ -n "$newver" && "$newver" != "$oldver" ]]; then
-        sed -i "s/^pkgver=.*/pkgver=${newver}/" PKGBUILD
-        sed -i "s/^pkgrel=.*/pkgrel=1/" PKGBUILD
-
+    if ! git diff --quiet HEAD -- PKGBUILD; then
         git add PKGBUILD
-        git commit -m "feat: update ${pkgname} to ${newver}"
+        source PKGBUILD
+        git commit -m "feat: update ${pkgname} to ${pkgver}"
     else
         echo "$pkgname is aready at the latest refrence"
         popd >/dev/null
