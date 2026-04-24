@@ -2,7 +2,7 @@
 pkgname=lrcget-git
 _pkgname=lrcget
 pkgver=2.0.0.r0.g01fab65
-pkgrel=1
+pkgrel=2
 _publish=false
 pkgdesc='Utility for mass-downloading LRC synced lyrics for your offline music library.'
 arch=('x86_64' 'aarch64')
@@ -16,7 +16,7 @@ conflicts=('lrcget' 'lrcget-bin')
 source=("$_pkgname-main::git+$url.git#branch=main"
     'lrcget')
 sha256sums=('SKIP'
-            'b051010628a791599d33437a23e352dac46db9aa09bf466fee106ef70d952f7f')
+            '2ddd32e5a5576a4c6b0963e2b2bf36c249f6364da48c1e93610d3099da13e633')
 
 pkgver() {
     cd "${_pkgname}-main"

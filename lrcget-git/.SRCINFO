@@ -1,7 +1,7 @@
 pkgbase = lrcget-git
 	pkgdesc = Utility for mass-downloading LRC synced lyrics for your offline music library.
 	pkgver = 2.0.0.r0.g01fab65
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/tranxuanthang/lrcget
 	arch = x86_64
 	arch = aarch64
@@ -24,6 +24,6 @@ pkgbase = lrcget-git
 	source = lrcget-main::git+https://github.com/tranxuanthang/lrcget.git#branch=main
 	source = lrcget
 	sha256sums = SKIP
-	sha256sums = b051010628a791599d33437a23e352dac46db9aa09bf466fee106ef70d952f7f
+	sha256sums = 2ddd32e5a5576a4c6b0963e2b2bf36c249f6364da48c1e93610d3099da13e633
 
 pkgname = lrcget-git
