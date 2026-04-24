@@ -15,10 +15,11 @@ for dir in *-git; do
     pushd "$dir" >/dev/null
 
     makepkg --nobuild --nodeps --noprepare
+    unset pkgname pkgver pkgrel epoch _publish
+    source PKGBUILD
 
     if ! git diff --quiet HEAD -- PKGBUILD; then
         git add PKGBUILD
-        source PKGBUILD
         git commit -m "feat: update ${pkgname} to ${pkgver}"
     else
         echo "$pkgname is aready at the latest refrence"
@@ -33,5 +34,7 @@ for dir in *-git; do
     git add readme.md
     git commit -m "docs: update tha readme"
 
-    just publish "$pkgname"
+    if [[ -n "$_publish" && "$_publish" != 'false'  ]]; then
+        just publish "$pkgname"
+    fi
 done
