@@ -55,8 +55,8 @@
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
-| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.1-1 | x86_64,aarch64 |
-| `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0.r0.g01fab65-1 | x86_64,aarch64 |
+| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-1 | x86_64,aarch64 |
+| `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0.r0.g01fab65-2 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r2.gf059f69-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
@@ -92,6 +92,6 @@
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.2.1-1 | x86_64,aarch64 |
-| `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.0-2 | x86_64 |
+| `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.3-1 | x86_64 |
 | `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.3.r0.g73cf013-1 | x86_64 |
 
