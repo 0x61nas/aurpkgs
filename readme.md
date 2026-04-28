@@ -20,8 +20,8 @@
 | `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-2 | x86_64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
 | `chess-cat-git` | Visualize chess boards in your terminal | r7.0af984e-1 | x86_64,aarch64,riscv64 |
-| `classfi` | A simple classical music player | 0.1.1-1 | x86_64,aarch64,riscv64 |
-| `classfi-bin` | A simple classical music player | 0.1.1-1 | x86_64 |
+| `classfi` | A simple classical music player | 0.2.0-1 | x86_64,aarch64,riscv64 |
+| `classfi-bin` | A simple classical music player | 0.2.0-1 | x86_64 |
 | `classfi-git` | A simple classical music player | 0.1.1.r0.g2efaa3f-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
