@@ -74,6 +74,7 @@
 | `purple-bin` | Terminal SSH manager and SSH config editor in Rust. Fuzzy search hundreds of hosts, sync from 16 clouds, transfer files, manage Docker and Podman over SSH | 2.45.2-1 | x86_64,aarch64 |
 | `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | v2.13.0.r2.g7d01f4e-1 | x86_64,aarch64,armv7h,riscv64 |
 | `ratatui-gamepad-tester` | TUI app for visualizing gamepad input | 0.1.1-1 | x86_64,aarch64 |
+| `ratatui-gamepad-tester-git` | TUI app for visualizing gamepad input | 0.1.1.r0.gf1ae2de-1 | x86_64,aarch64 |
 | `rdn-git` | Rusty Dos Navigator | r9.2c8c340-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5-1 | x86_64,aarch64,riscv64 |
