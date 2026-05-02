@@ -68,7 +68,7 @@
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3-1 | x86_64,aarch64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
 | `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (12 providers), password management. Edits ~/.ssh/config directly. | 2.14.2-1 | x86_64,aarch64,armv7h,riscv64 |
 | `purple-bin` | Terminal SSH manager and SSH config editor in Rust. Fuzzy search hundreds of hosts, sync from 16 clouds, transfer files, manage Docker and Podman over SSH | 2.45.2-1 | x86_64,aarch64 |
