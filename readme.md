@@ -60,7 +60,7 @@
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
-| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-1 | x86_64,aarch64 |
+| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0.r0.g01fab65-2 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r2.gf059f69-1 | x86_64,aarch64,riscv64 |
