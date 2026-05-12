@@ -79,6 +79,7 @@
 | `ratherapia-git` | blends ambient sound, rain textures, reactive terminal particles, and an optional inline 3D rat scene into a quiet TUI instrument. | 0.1.1.r0.ge7e4f0c-1 | x86_64,aarch64 |
 | `rdn-git` | Rusty Dos Navigator | r9.2c8c340-1 | x86_64 |
 | `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
+| `scriptor-git` | Local speech-to-text CLI & TUI. | r189.b77f9f7-1 | x86_64,aarch64 |
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
@@ -95,7 +96,7 @@
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
-| `tuicr` | a terminal UI for local code review | 0.10.0-1 | x86_64,aarch64,riscv64 |
+| `tuicr` | a terminal UI for local code review | 0.12.0-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
