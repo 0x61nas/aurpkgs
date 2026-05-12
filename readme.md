@@ -42,7 +42,7 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.5.3-1 | x86_64,aarch64,riscv64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.6.2-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.5.3-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
