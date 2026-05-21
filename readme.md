@@ -47,7 +47,7 @@
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
-| `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.1.2-4 | i686,x86_64 |
+| `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
@@ -70,9 +70,9 @@
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64,riscv64 |
 | `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
-| `purple` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (12 providers), password management. Edits ~/.ssh/config directly. | 2.14.2-1 | x86_64,aarch64,armv7h,riscv64 |
-| `purple-bin` | Terminal SSH manager and SSH config editor in Rust. Fuzzy search hundreds of hosts, sync from 16 clouds, transfer files, manage Docker and Podman over SSH | 2.45.2-1 | x86_64,aarch64 |
-| `purple-git` | TUI to search, connect and manage SSH servers. Visual file transfer, cloud sync (10 providers), password management. Edits ~/.ssh/config directly. | v2.13.0.r2.g7d01f4e-1 | x86_64,aarch64,armv7h,riscv64 |
+| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.14.0-1 | x86_64,aarch64 |
+| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.14.0-1 | x86_64,aarch64 |
+| `purple-git` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.12.3.r0.g1ed5ffe-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester` | TUI app for visualizing gamepad input | 0.1.1-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester-git` | TUI app for visualizing gamepad input | 0.1.1.r0.gf1ae2de-1 | x86_64,aarch64 |
 | `ratherapia` | blends ambient sound, rain textures, reactive terminal particles, and an optional inline 3D rat scene into a quiet TUI instrument. | 0.1.1-1 | x86_64,aarch64 |
@@ -83,7 +83,7 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.0-1 | x86_64,aarch64,riscv64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1-1 | x86_64,aarch64 |
 | `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.0-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.5.20.r0.g27e4604-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
