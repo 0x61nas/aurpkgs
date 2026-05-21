@@ -42,8 +42,8 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.6.2-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.6.2-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.0-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.0-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
@@ -84,8 +84,8 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1-2 | x86_64,aarch64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1-1 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.2-1 | x86_64,aarch64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.2-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
@@ -100,7 +100,7 @@
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
-| `tuicr` | a terminal UI for local code review | 0.15.0-1 | x86_64,aarch64,riscv64 |
+| `tuicr` | a terminal UI for local code review | 0.16.0-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
