@@ -90,6 +90,7 @@
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
+| `swpui` | Search and replace, TUI style. | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r13.g772d2d0-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
