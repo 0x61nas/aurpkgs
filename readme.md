@@ -45,15 +45,15 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.0-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.0-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.2-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.2-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
-| `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
-| `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3-1 | x86_64,aarch64 |
+| `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
+| `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
 | `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
