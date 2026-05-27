@@ -7,11 +7,7 @@ pkgbuild="${1:-PKGBUILD}"
 cd "$(dirname "$(readlink -f "$pkgbuild")")"
 pkgbuild="$(basename "$pkgbuild")"
 
-for v in pkgname pkgver pkgrel arch source sha256sums; do unset "$v" 2>/dev/null || true; done
-for a in x86_64 aarch64 riscv64 i686 armv7h loong64 pentium4; do
-    for v in source sha256sums; do unset "${v}_$a" 2>/dev/null || true; done
-done
-
+declare -A source
 source "$pkgbuild"
 
 get_url()   { local s="$1"; if [[ "$s" == *::* ]]; then echo "${s#*::}"; else echo "$s"; fi; }
@@ -58,7 +54,7 @@ for src in "${source[@]}"; do
     url="$(get_url "$src")"
     fn="$(get_fn "$src")"
     if is_remote "$url"; then
-        [ -f "$fn" ] || curl -sfSL -o "$fn" "$url"
+        [ -f "$fn" ] || curl -fSL -o "$fn" "$url"
         seen_fn["$fn"]=1
     fi
 done
@@ -84,7 +80,7 @@ done
 # ---- update PKGBUILD ----
 
 # replace / add sha256sums (common)
-if [[ ${#source[@]} -gt 0 ]]; then
+if [[ ${source[@]} -gt 0 ]]; then
     sums=()
     for src in "${source[@]}"; do
         url="$(get_url "$src")"
@@ -116,7 +112,7 @@ for a in "${arch[@]}"; do
                 use_fn="$fn"
                 key="${a}_${fn}"
                 [[ -n "${rename_for_sum[$key]:-}" ]] && use_fn="${rename_for_sum[$key]}"
-                [ -f "$use_fn" ] || curl -sfSL -o "$use_fn" "$url"
+                [ -f "$use_fn" ] || curl -fSL -o "$use_fn" "$url"
                 sums+=($(sha256sum "$use_fn" | awk '{print $1}'))
             else
                 sums+=($(sha256sum "$url" | awk '{print $1}'))

@@ -88,16 +88,16 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.2-1 | x86_64,aarch64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.2-1 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.8.0-1 | x86_64,aarch64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.8.0-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.7.0-1 | x86_64,aarch64,riscv64 |
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
-| `swpui` | Search and replace, TUI style. | 0.7.2-1 | x86_64,aarch64,riscv64 |
-| `swpui-bin` | Search and replace, TUI style. | 0.7.2-1 | x86_64,aarch64 |
+| `swpui` | Search and replace, TUI style. | 0.8.0-1 | x86_64,aarch64,riscv64 |
+| `swpui-bin` | Search and replace, TUI style. | 0.8.0-1 | x86_64,aarch64 |
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.1.0.r13.g772d2d0-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
