@@ -71,12 +71,13 @@
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.4-1 | x86_64,aarch64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
-| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.15.8-1 | x86_64,aarch64 |
-| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.15.8-1 | x86_64,aarch64 |
+| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.16.0-1 | x86_64,aarch64 |
+| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.16.0-1 | x86_64,aarch64 |
 | `purple-git` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.12.3.r0.g1ed5ffe-1 | x86_64,aarch64 |
+| `quien-git` | A better whois and domain intelligence toolkit | 0.9.0.r1.g6bd4f22-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester` | TUI app for visualizing gamepad input | 0.1.1-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester-git` | TUI app for visualizing gamepad input | 0.1.1.r0.gf1ae2de-1 | x86_64,aarch64 |
 | `ratherapia` | blends ambient sound, rain textures, reactive terminal particles, and an optional inline 3D rat scene into a quiet TUI instrument. | 0.1.1-1 | x86_64,aarch64 |
