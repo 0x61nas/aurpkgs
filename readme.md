@@ -48,8 +48,8 @@
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.3-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.3-2 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
-| `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.19-2 | x86_64 |
-| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.19.r6.g0523a2b-2 | x86_64 |
+| `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.20-1 | x86_64,aarch64 |
+| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.20.r1.g3c7c3b7-1 | x86_64,aarch64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
@@ -106,7 +106,7 @@
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
-| `tuicr` | a terminal UI for local code review | 0.16.0-1 | x86_64,aarch64,riscv64 |
+| `tuicr` | a terminal UI for local code review | 0.16.1-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
