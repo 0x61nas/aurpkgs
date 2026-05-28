@@ -74,8 +74,8 @@
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64,riscv64 |
 | `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
-| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.16.0-1 | x86_64,aarch64 |
-| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.16.0-1 | x86_64,aarch64 |
+| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.19.0-1 | x86_64,aarch64 |
+| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.19.0-1 | x86_64,aarch64 |
 | `purple-git` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.12.3.r0.g1ed5ffe-1 | x86_64,aarch64 |
 | `quien-git` | A better whois and domain intelligence toolkit | 0.9.0.r1.g6bd4f22-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester` | TUI app for visualizing gamepad input | 0.1.1-1 | x86_64,aarch64 |
@@ -108,6 +108,7 @@
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
 | `tuicr` | a terminal UI for local code review | 0.16.1-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
+| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12-1 | x86_64,aarch64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
