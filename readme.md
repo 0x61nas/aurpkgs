@@ -16,8 +16,8 @@
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `budget-tracker` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-1 | x86_64,aarch64,riscv64 |
-| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1-2 | x86_64 |
+| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64 |
@@ -45,11 +45,11 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.3-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.3-2 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.9-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.9-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.5.3.r1.gb8b5929-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.20-1 | x86_64,aarch64 |
-| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.20.r1.g3c7c3b7-1 | x86_64,aarch64 |
+| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.20.r1.g3c7c3b7-2 | x86_64,aarch64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
@@ -65,7 +65,7 @@
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0.r0.g01fab65-2 | x86_64,aarch64 |
-| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.41-1 | x86_64,aarch64,riscv64 |
+| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.0.42-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r2.gf059f69-1 | x86_64,aarch64,riscv64 |
 | `nnd-git` | A debugger for Linux | 0.77.r0.g2f14def-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
@@ -89,7 +89,7 @@
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
 | `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.8.0-1 | x86_64,aarch64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.8.0-1 | x86_64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.8.0-2 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.7.0-1 | x86_64,aarch64,riscv64 |
@@ -115,7 +115,7 @@
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.2.1-1 | x86_64,aarch64 |
+| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.3.1-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.3-1 | x86_64 |
 | `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.3.r0.g73cf013-1 | x86_64 |
 
