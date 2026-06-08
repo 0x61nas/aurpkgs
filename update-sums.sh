@@ -7,12 +7,12 @@ pkgbuild="${1:-PKGBUILD}"
 cd "$(dirname "$(readlink -f "$pkgbuild")")"
 pkgbuild="$(basename "$pkgbuild")"
 
-declare -A source
 source "$pkgbuild"
 
 get_url()   { local s="$1"; if [[ "$s" == *::* ]]; then echo "${s#*::}"; else echo "$s"; fi; }
 get_fn()    { local s="$1"; if [[ "$s" == *::* ]]; then echo "${s%%::*}"; else local u; u="$(get_url "$s")"; basename "$u"; fi; }
 is_remote() { [[ "$1" == *://* ]]; }
+is_vcs()    { [[ "$1" == git+* || "$1" == svn+* || "$1" == bzr+* || "$1" == hg+* ]]; }
 
 fmt() {
     if [[ $# -eq 1 ]]; then
@@ -25,104 +25,71 @@ fmt() {
     fi
 }
 
-# replace_var <var> <value> <file>
-# Replaces an existing var= assignment (potentially multi-line) with new value.
-# Returns 0 on success, 1 if var not found.
-replace_var() {
-    local var="$1" val="$2" file="$3"
-    local start end
-    start="$(grep -n "^${var}=" "$file" | head -1 | cut -d: -f1)"
-    [[ -z "$start" ]] && return 1
+ALL_HASHES=(sha256 sha512 sha1 md5 b2)
 
-    if sed -n "${start}p" "$file" | grep -q ')$'; then
-        sed -i "${start}c\\${var}=${val}" "$file"
-    else
-        end="$(tail -n +$((start + 1)) "$file" | grep -n ')$' | head -1 | cut -d: -f1)"
-        if [[ -n "$end" ]]; then
-            end=$((start + end))
-            sed -i "${start},${end}c\\${var}=${val}" "$file"
-        fi
-    fi
-    return 0
+existing_hashes() {
+    local prefix="$1" result=()
+    for h in "${ALL_HASHES[@]}"; do
+        grep -q "^${h}sums${prefix}=" "$pkgbuild" 2>/dev/null && result+=("$h")
+    done
+    echo "${result[@]}"
 }
 
-# ---- download & checksum ----
+replace_or_add() {
+    local var="$1" val="$2"
+    local start
+    start="$(grep -n "^${var}=" "$pkgbuild" | head -1 | cut -d: -f1 || true)"
+    if [[ -n "$start" ]]; then
+        if sed -n "${start}p" "$pkgbuild" | grep -q ')$'; then
+            sed -i "${start}c\\${var}=${val}" "$pkgbuild"
+        else
+            sed -i "${start},/^)/c\\${var}=${val}" "$pkgbuild"
+        fi
+    else
+        sed -i "/^package()/i\\${var}=${val}" "$pkgbuild"
+    fi
+}
 
 declare -A seen_fn
 
-for src in "${source[@]}"; do
-    url="$(get_url "$src")"
-    fn="$(get_fn "$src")"
-    if is_remote "$url"; then
-        [ -f "$fn" ] || curl -fSL -o "$fn" "$url"
-        seen_fn["$fn"]=1
-    fi
-done
+process_sources() {
+    local src_var="$1" prefix="$2"
+    [[ -z "${!src_var:+x}" ]] && return 0
+    declare -n sources="$src_var"
+    [[ ${#sources[@]} -eq 0 ]] && return 0
 
-declare -A rename_for_sum
+    local hashes=($(existing_hashes "$prefix"))
+    [[ ${#hashes[@]} -eq 0 ]] && hashes=(sha256)
 
-for a in "${arch[@]}"; do
-    src_varname="source_$a"
-    [[ -z "${!src_varname:+x}" ]] && continue
-    declare -n src_arr="$src_varname"
-    for src in "${src_arr[@]}"; do
-        url="$(get_url "$src")"
-        fn="$(get_fn "$src")"
-        if is_remote "$url"; then
-            if [[ -n "${seen_fn[$fn]:-}" ]]; then
-                rename_for_sum["${a}_${fn}"]="${fn}-${a}"
-            fi
-            seen_fn["$fn"]=1
-        fi
-    done
-done
-
-# ---- update PKGBUILD ----
-
-# replace / add sha256sums (common)
-if [[ ${source[@]} -gt 0 ]]; then
-    sums=()
-    for src in "${source[@]}"; do
-        url="$(get_url "$src")"
-        fn="$(get_fn "$src")"
-        if is_remote "$url"; then
-            sums+=($(sha256sum "$fn" | awk '{print $1}'))
-        else
-            sums+=($(sha256sum "$url" | awk '{print $1}'))
-        fi
-    done
-    val="$(fmt "${sums[@]}")"
-    if ! replace_var sha256sums "$val" "$pkgbuild"; then
-        sed -i "/^package()/i\\sha256sums=${val}" "$pkgbuild"
-    fi
-fi
-
-# replace / add per-arch sha256sums
-for a in "${arch[@]}"; do
-    src_varname="source_$a"
-    sums_varname="sha256sums_$a"
-    [[ -z "${!src_varname:+x}" ]] && continue
-    declare -n src_arr="$src_varname"
-    if [[ ${#src_arr[@]} -gt 0 ]]; then
+    local sums
+    for h in "${hashes[@]}"; do
         sums=()
-        for src in "${src_arr[@]}"; do
+        for src in "${sources[@]}"; do
+            local url fn
             url="$(get_url "$src")"
             fn="$(get_fn "$src")"
-            if is_remote "$url"; then
-                use_fn="$fn"
-                key="${a}_${fn}"
-                [[ -n "${rename_for_sum[$key]:-}" ]] && use_fn="${rename_for_sum[$key]}"
-                [ -f "$use_fn" ] || curl -fSL -o "$use_fn" "$url"
-                sums+=($(sha256sum "$use_fn" | awk '{print $1}'))
+            if is_vcs "$url"; then
+                sums+=('SKIP')
+            elif is_remote "$url"; then
+                local dl_fn="$fn"
+                if [[ -n "$prefix" ]] && [[ -n "${seen_fn[$fn]:-}" ]]; then
+                    dl_fn="${fn}-${prefix#_}"
+                fi
+                [ -f "$dl_fn" ] || curl -fSL -o "$dl_fn" "$url"
+                sums+=($(${h}sum "$dl_fn" | awk '{print $1}'))
+                seen_fn["$fn"]=1
             else
-                sums+=($(sha256sum "$url" | awk '{print $1}'))
+                sums+=($(${h}sum "$url" | awk '{print $1}'))
             fi
         done
-        val="$(fmt "${sums[@]}")"
-        if ! replace_var "$sums_varname" "$val" "$pkgbuild"; then
-            sed -i "/^package()/i\\${sums_varname}=${val}" "$pkgbuild"
-        fi
-    fi
+        replace_or_add "${h}sums${prefix}" "$(fmt "${sums[@]}")"
+    done
+}
+
+process_sources "source" ""
+
+for a in "${arch[@]}"; do
+    process_sources "source_$a" "_$a"
 done
 
 echo "updated checksums in $pkgbuild"
