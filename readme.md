@@ -36,6 +36,7 @@
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r147.g1ac1ab6-1 | x86_64,aarch64 |
+| `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.8.0.r1.g2301146-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `ghr` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64,riscv64 |
@@ -45,11 +46,11 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.12-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.12-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.13-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.13-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.7.10.r3.g9b07682-1 | x86_64,aarch64,riscv64 |
-| `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.20-1 | x86_64,aarch64 |
-| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.20.r1.g3c7c3b7-2 | x86_64,aarch64 |
+| `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.21-1 | x86_64,aarch64 |
+| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r0.g36e16bb-1 | x86_64,aarch64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
@@ -110,7 +111,7 @@
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3-1 | x86_64,aarch64,riscv64 |
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
-| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.1-1 | x86_64,aarch64 |
+| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.2-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
