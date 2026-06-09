@@ -72,8 +72,8 @@
 | `nnd-git` | A debugger for Linux | 0.77.r0.g2f14def-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
-| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0-1 | x86_64,aarch64,riscv64 |
-| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0-1 | x86_64,aarch64 |
+| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64,riscv64 |
+| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0.r4.g2c68a1b-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64,riscv64 |
