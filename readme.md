@@ -76,8 +76,8 @@
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0.r4.g2c68a1b-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.5-1 | x86_64,aarch64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.6-1 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.6-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
 | `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.19.0-1 | x86_64,aarch64 |
 | `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.19.0-1 | x86_64,aarch64 |
