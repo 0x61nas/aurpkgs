@@ -97,7 +97,7 @@
 | `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.0.1-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
-| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.7.0-1 | x86_64,aarch64,riscv64 |
+| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.8.0-1 | x86_64,aarch64,riscv64 |
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
