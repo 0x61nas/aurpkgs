@@ -44,8 +44,8 @@
 | `ghr-bin` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.1.r0.g2dedf47-1 | x86_64,aarch64,riscv64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
-| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.45-1 | x86_64,aarch64 |
-| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.45-1 | x86_64 |
+| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.52-1 | x86_64,aarch64 |
+| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.52-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64 |
@@ -76,8 +76,8 @@
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0.r4.g2c68a1b-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.6-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.6-1 | x86_64,aarch64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
 | `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.0-1 | x86_64,aarch64 |
 | `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.0-1 | x86_64,aarch64 |
@@ -101,8 +101,8 @@
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
-| `swpui` | Search and replace, TUI style. | 0.8.0-1 | x86_64,aarch64,riscv64 |
-| `swpui-bin` | Search and replace, TUI style. | 0.8.0-1 | x86_64,aarch64 |
+| `swpui` | Search and replace, TUI style. | 0.9.0-1 | x86_64,aarch64,riscv64 |
+| `swpui-bin` | Search and replace, TUI style. | 0.9.0-1 | x86_64,aarch64 |
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
