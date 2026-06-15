@@ -44,8 +44,8 @@
 | `ghr-bin` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.1.r0.g2dedf47-1 | x86_64,aarch64,riscv64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
-| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.52-1 | x86_64,aarch64 |
-| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.52-1 | x86_64 |
+| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.54-1 | x86_64,aarch64 |
+| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.54-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64 |
@@ -122,7 +122,7 @@
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.3.1-1 | x86_64,aarch64 |
+| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.3.2-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.3-1 | x86_64 |
 | `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.3.r0.g73cf013-1 | x86_64 |
 
