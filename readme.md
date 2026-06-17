@@ -14,6 +14,8 @@
 | `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.1.r4.g27b258b-1 | i686,x86_64 |
 | `archy-st` | Simple terminal emulator for X with some patches applied | 0.10.3-3 | i686,x86_64 |
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
+| `autolock` | A minimal X11 idle-watcher | 0.1-1 | x86_64,aarch64 |
+| `autolock-git` | A minimal X11 idle-watcher | 0.1.r0.g0a24d70-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64,aarch64,riscv64 |
@@ -44,8 +46,8 @@
 | `ghr-bin` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.1.r0.g2dedf47-1 | x86_64,aarch64,riscv64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
-| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.1.54-1 | x86_64,aarch64 |
-| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.1.54-1 | x86_64 |
+| `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.2.3-1 | x86_64,aarch64 |
+| `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 0.2.3-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.7.14-1 | x86_64,aarch64 |
