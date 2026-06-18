@@ -62,6 +62,7 @@
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
+| `livediff-git` | Real-time file monitoring with beautiful, pulsing TUI diff visualization | 0.3.0.r3.g25f6863-1 | x86_64,aarch64,riscv64 |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.9.14.r1.gb8f37fd-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
@@ -74,6 +75,8 @@
 | `nnd-git` | A debugger for Linux | 0.77.r0.g2f14def-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
+| `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
+| `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
 | `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64,riscv64 |
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.4.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0.r4.g2c68a1b-1 | x86_64,aarch64,riscv64 |
