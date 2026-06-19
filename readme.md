@@ -42,8 +42,8 @@
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.8.0.r1.g2301146-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
-| `ghr` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64,riscv64 |
-| `ghr-bin` | GitHub in your terminal | 0.8.1-1 | x86_64,aarch64 |
+| `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
+| `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.1.r0.g2dedf47-1 | x86_64,aarch64,riscv64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 0.2.5-1 | x86_64,aarch64 |
