@@ -13,23 +13,16 @@ declare -A GIT_REMOTES=(
     [codefloe]="ssh://git@codefloe.com/anas/${REPO_NAME}.git"
 )
 
-RED='\033[0;31m'
-GREEN='\033[0;32m'
-YELLOW='\033[1;33m'
-CYAN='\033[0;36m'
-BOLD='\033[1m'
-NC='\033[0m'
-
-ok()   { echo -e "  ${GREEN}✓${NC} $1"; }
-fail() { echo -e "  ${RED}✗${NC} $1"; }
-info() { echo -e "  ${CYAN}→${NC} $1"; }
-warn() { echo -e "  ${YELLOW}!${NC} $1"; }
+ok()   { echo -e "  $1"; }
+fail() { echo -e "  $1"; }
+info() { echo -e "  $1"; }
+warn() { echo -e "  $1"; }
 
 usage() {
     cat <<EOF
-${BOLD}Usage:${NC} x <command> [args]
+Usage: x <command> [args]
 
-${BOLD}Commands:${NC}
+Commands:
   readme                    Generate readme.md from package metadata
   update-vcs                Update VCS (-git) packages
   publish <package>         Publish a package via aurpublish
@@ -46,7 +39,7 @@ EOF
 
 error() {
     local arg="${1-}"
-    echo -e "${RED}Error:${NC} unknown command '${arg}'" >&2
+    echo -e "Error: unknown command '${arg}'" >&2
     echo "Run 'x help' for usage" >&2
     exit 1
 }
@@ -82,8 +75,8 @@ push() {
     [[ ${#flags[@]} -eq 0 ]] && flags=("-u")
 
     local flag_str="${flags[*]}"
-    echo -e "${BOLD}Pushing to all remotes${NC}"
-    echo -e "  Branch: ${CYAN}$branch${NC}  Flags: ${CYAN}${flag_str:-(none)}${NC}"
+    echo -e "Pushing to all remotes"
+    echo -e "  Branch: $branch  Flags: ${flag_str:-(none)}"
     echo
 
     local ok=true
@@ -108,7 +101,7 @@ push() {
 push-tags() {
     push "$@"
     echo
-    echo -e "${BOLD}Pushing tags to all remotes${NC}"
+    echo -e "Pushing tags to all remotes"
     echo
     local ok=true
     for remote in "${!GIT_REMOTES[@]}"; do
@@ -132,23 +125,23 @@ push-tags() {
 publish() {
     local pkg="${1-}"
     if [[ -z "$pkg" ]]; then
-        echo -e "${RED}Error:${NC} package name required" >&2
+        echo -e "Error: package name required" >&2
         echo "Usage: x publish <package>" >&2
         exit 1
     fi
-    echo -e "${BOLD}Publishing $pkg${NC}"
+    echo -e "Publishing $pkg"
     aurpublish "$pkg"
     ok "published $pkg"
 }
 
 readme() {
-    echo -e "${BOLD}Generating readme.md${NC}"
+    echo -e "Generating readme.md"
     bash readme.sh > readme.md
     ok "readme.md generated"
 }
 
 update-vcs() {
-    echo -e "${BOLD}Updating VCS packages${NC}"
+    echo -e "Updating VCS packages"
     bash update-vcs.sh
 }
 
@@ -156,11 +149,11 @@ upgrade() {
     local pkg="${1-}"
     local ver="${2-}"
     if [[ -z "$pkg" || -z "$ver" ]]; then
-        echo -e "${RED}Error:${NC} usage: x upgrade <package> <version>" >&2
+        echo -e "Error: usage: x upgrade <package> <version>" >&2
         exit 1
     fi
 
-    echo -e "${BOLD}Upgrading $pkg to $ver${NC}"
+    echo -e "Upgrading $pkg to $ver"
     echo
 
     for suffix in "" "-bin"; do
@@ -194,7 +187,7 @@ upgrade() {
 }
 
 clean() {
-    echo -e "${BOLD}Cleaning untracked files${NC}"
+    echo -e "Cleaning untracked files"
     git clean -ffdx
     ok "clean complete"
 }
