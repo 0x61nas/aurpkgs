@@ -186,6 +186,12 @@ upgrade() {
     ok "upgrade complete"
 }
 
+pkg-version() {
+    local pkg="${1-}"
+    source "$pkg/PKGBUILD"
+    echo "Current $pkg version: '$pkgver'"
+}
+
 clean() {
     echo -e "Cleaning untracked files"
     git clean -ffdx
@@ -206,6 +212,7 @@ case $arg in
     readme|r) readme ;;
     update-vcs|update-vcs-packages|uv) update-vcs ;;
     upgrade|up) upgrade "${1-}" "${2-}" ;;
+    version|ver|pkgver) pkg-version "${1-}" ;;
     clean|c) clean ;;
     *) error "$arg" ;;
 esac
