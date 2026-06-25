@@ -84,8 +84,8 @@
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64,riscv64 |
 | `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.3.r7.gfd65e51-1 | x86_64,aarch64,riscv64 |
-| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.0-1 | x86_64,aarch64 |
-| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.0-1 | x86_64,aarch64 |
+| `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
+| `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
 | `purple-git` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.12.3.r0.g1ed5ffe-1 | x86_64,aarch64 |
 | `quien-git` | A better whois and domain intelligence toolkit | 0.9.0.r1.g6bd4f22-1 | x86_64,aarch64 |
 | `ratatui-gamepad-tester` | TUI app for visualizing gamepad input | 0.1.1-1 | x86_64,aarch64 |
@@ -98,8 +98,8 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.2.1-1 | x86_64,aarch64,riscv64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.2.1-1 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.2.4-1 | x86_64,aarch64,riscv64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.2.4-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.9.0-1 | x86_64,aarch64,riscv64 |
