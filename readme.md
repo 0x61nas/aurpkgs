@@ -77,7 +77,7 @@
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
-| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.5.0-1 | x86_64,aarch64,riscv64 |
+| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.5.1-1 | x86_64,aarch64,riscv64 |
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.5.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.3.0.r4.g2c68a1b-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
@@ -118,7 +118,7 @@
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
 | `tuicr` | a terminal UI for local code review (vibe-coded) | 0.17.1-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
-| `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3-1 | x86_64,aarch64,riscv64 |
+| `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.4-1 | x86_64,aarch64,riscv64 |
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
 | `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.3-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
