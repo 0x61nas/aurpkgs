@@ -102,7 +102,7 @@
 | `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.2.5-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
-| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.9.0-1 | x86_64,aarch64,riscv64 |
+| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.10.0-1 | x86_64,aarch64,riscv64 |
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
@@ -122,6 +122,7 @@
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
 | `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.3-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
+| `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | r58.2b0291d-1 | x86_64,aarch64,riscv64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
