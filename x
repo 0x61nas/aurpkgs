@@ -130,7 +130,7 @@ publish() {
         exit 1
     fi
     echo -e "Publishing $pkg"
-    aurpublish "$pkg"
+    aurpublish -s  "$pkg"
     ok "published $pkg"
 }
 
