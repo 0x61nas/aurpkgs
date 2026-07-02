@@ -30,11 +30,11 @@ for dir in *-git; do
     popd >/dev/null
     echo Exit: $dir
 
-    just readme
+    ./x readme
     git add readme.md
     git commit -m "docs: update tha readme"
 
     if [[ -n "$_publish" && "$_publish" != 'false'  ]]; then
-        just publish "$pkgname"
+        ./x publish "$pkgname"
     fi
 done
