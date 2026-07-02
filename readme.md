@@ -58,7 +58,7 @@
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r5.ge809770-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
 | `image-auditor-bin` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
-| `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.3.r0.g8334768-1 | x86_64,aarch64 |
+| `image-auditor-git` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4.r0.gaa6f1b9-1 | x86_64,aarch64 |
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
