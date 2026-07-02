@@ -62,7 +62,7 @@
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
-| `livediff-git` | Real-time file monitoring with beautiful, pulsing TUI diff visualization | 0.3.0.r3.g25f6863-1 | x86_64,aarch64,riscv64 |
+| `livediff-git` | Real-time file monitoring with beautiful, pulsing TUI diff visualization | 0.3.0.r10.g9ff519d-1 | x86_64,aarch64,riscv64 |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.9.14.r1.gb8f37fd-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
