@@ -48,7 +48,7 @@
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r3.ga5dd673-1 | x86_64,aarch64,riscv64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
-| `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
+| `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.8.1-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.7.10.r3.g9b07682-1 | x86_64,aarch64,riscv64 |
