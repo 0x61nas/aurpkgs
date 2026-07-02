@@ -53,7 +53,7 @@
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.8.1-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.8.2.r0.g32331e3-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.21-1 | x86_64,aarch64 |
-| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r0.g36e16bb-1 | x86_64,aarch64 |
+| `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r27.g2ce3f83-1 | x86_64,aarch64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
 | `hys-git` | Terminal RSS Reader for Digital Minimalists in Zig. — Build from the main branch | 0.2.0.r0.gded969a-1 | i686,x86_64 |
 | `image-auditor` | TUI that finds & AI-fixes Lighthouse image issues (CLS, lazy loading, WebP, srcset) across your entire codebase in seconds. | 0.2.4-1 | x86_64,aarch64 |
