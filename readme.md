@@ -45,7 +45,7 @@
 | `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.2.r1.g1725b9a-1 | x86_64,aarch64,riscv64 |
-| `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r1.g29bfb3a-1 | x86_64,aarch64,riscv64 |
+| `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r3.ga5dd673-1 | x86_64,aarch64,riscv64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r7.g676c3d9-1 | x86_64,aarch64 |
