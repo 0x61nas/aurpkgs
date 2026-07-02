@@ -36,7 +36,7 @@
 | `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r58.g755c838-1 | x86_64,aarch64 |
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
 | `dealve-bin` | Delve into game deals from your terminal | 1.0.1-2 | x86_64,aarch64 |
-| `dehub-git` | A TUI to de-GitHub yourself. Control PRs, Actions, Issues, Notifications. | r669.8db9c8b-1 | x86_64,aarch64,riscv64 |
+| `dehub-git` | A TUI to de-GitHub yourself. Control PRs, Actions, Issues, Notifications. | r671.5f4b2f8-1 | x86_64,aarch64,riscv64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.5.0.r147.g1ac1ab6-1 | x86_64,aarch64 |
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.8.0.r1.g2301146-1 | x86_64,aarch64,riscv64 |
