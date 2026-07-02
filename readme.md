@@ -67,7 +67,7 @@
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r11.g93063f6-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
-| `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
+| `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r3.g44f3cb4-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.0.0.r0.g01fab65-2 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1-1 | x86_64,aarch64,riscv64 |
