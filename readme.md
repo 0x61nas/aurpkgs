@@ -71,7 +71,7 @@
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0.r20.g5ce463c-1 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1-1 | x86_64,aarch64,riscv64 |
-| `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.0.24.r2.gf059f69-1 | x86_64,aarch64,riscv64 |
+| `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1.r3.g94449ca-1 | x86_64,aarch64,riscv64 |
 | `nnd-git` | A debugger for Linux | 0.77.r0.g2f14def-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
