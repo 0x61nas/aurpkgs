@@ -15,7 +15,8 @@ for dir in *-git; do
     pushd "$dir" >/dev/null
 
     makepkg --nobuild --nodeps --noprepare
-    unset pkgname pkgver pkgrel epoch _publish
+    unset pkgname pkgver pkgrel epoch
+    _publish=true
     source PKGBUILD
 
     if ! git diff --quiet HEAD -- PKGBUILD; then
