@@ -98,6 +98,8 @@
 | `seetui` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `seetui-git` | see (Service Event Extraction) is a TUI based tool to lookup logs from services (systemd) | 0.1.5.r2.g45feef6-1 | x86_64,aarch64,riscv64 |
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
+| `shellql` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7-1 | x86_64,aarch64,riscv64 |
+| `shellql-git` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7.beta.r0.g503bbf1-1 | x86_64,aarch64,riscv64 |
 | `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.3.8-1 | x86_64,aarch64,riscv64 |
 | `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.3.8-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
@@ -122,8 +124,8 @@
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
 | `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.3-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
-| `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.1.1-1 | x86_64,aarch64,riscv64 |
-| `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | r58.2b0291d-1 | x86_64,aarch64,riscv64 |
+| `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.2.0-1 | x86_64,aarch64,riscv64 |
+| `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
