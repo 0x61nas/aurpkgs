@@ -3,7 +3,7 @@
 | Package | Description | Version | Arch |
 |---------|-------------|---------|------|
 | `aarty` | Simple CLI tool to convert the images to ASCII art | 0.8.2-3 | x86_64,aarch64,armv7h,riscv64 |
-| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.2.r5.ge9b7c62-1 | x86_64,aarch64,armv7h,riscv64 |
+| `aarty-git` | Simple CLI tool to convert the images to ASCII art - Build from the aurora branch | 0.8.2.r13.g809752b-1 | x86_64,aarch64,armv7h,riscv64 |
 | `archy-dwm` | Dynamic window manager for X with some patches applied | 1.0.0-3 | i686,x86_64 |
 | `archy-dwm-git` | A dynamic window manager for X with some patches applied | 1.0.0.r37.g85c22fd-1 | i686,x86_64 |
 | `archy-screenshot` | Simple script helper to take screenshots with `lqth` | 1.0.0-3 | any |
