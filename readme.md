@@ -65,7 +65,7 @@
 | `livediff-git` | Real-time file monitoring with beautiful, pulsing TUI diff visualization | 0.3.0.r10.g9ff519d-1 | x86_64,aarch64,riscv64 |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.9.35.r0.gc50d135-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
-| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r7.g3d60af2-1 | x86_64,aarch64 |
+| `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r11.g93063f6-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r0.g0610cf8-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
