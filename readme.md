@@ -26,7 +26,7 @@
 | `chess-cat-git` | Visualize chess boards in your terminal | r16.56350e2-1 | x86_64,aarch64,riscv64 |
 | `classfi` | A simple classical music player | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `classfi-bin` | A simple classical music player | 0.2.0-1 | x86_64 |
-| `classfi-git` | A simple classical music player | 0.1.1.r0.g2efaa3f-1 | x86_64,aarch64,riscv64 |
+| `classfi-git` | A simple classical music player | 0.2.0.r0.g5711a90-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
