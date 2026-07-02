@@ -20,10 +20,10 @@
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64,aarch64,riscv64 |
 | `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64 |
-| `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.3.1.r0.g6410a41-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0.r0.gfa550f2-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64 |
-| `chess-cat-git` | Visualize chess boards in your terminal | r7.0af984e-1 | x86_64,aarch64,riscv64 |
+| `chess-cat-git` | Visualize chess boards in your terminal | r16.56350e2-1 | x86_64,aarch64,riscv64 |
 | `classfi` | A simple classical music player | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `classfi-bin` | A simple classical music player | 0.2.0-1 | x86_64 |
 | `classfi-git` | A simple classical music player | 0.1.1.r0.g2efaa3f-1 | x86_64,aarch64,riscv64 |
