@@ -1,8 +1,8 @@
 # Maintainer: Anas Elgarhy <anas.elgarhy.dev@gmail.com>
 pkgname=lrcget-git
 _pkgname=lrcget
-pkgver=2.0.0.r0.g01fab65
-pkgrel=2
+pkgver=2.1.0.r20.g5ce463c
+pkgrel=1
 _publish=false
 pkgdesc='Utility for mass-downloading LRC synced lyrics for your offline music library.'
 arch=('x86_64' 'aarch64')
