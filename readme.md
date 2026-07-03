@@ -42,6 +42,8 @@
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.10.0.r0.g5e35338-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
+| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4-1 | x86_64,aarch64,riscv64,armv7 |
+| `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-2 | x86_64,aarch64,riscv64,armv7 |
 | `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.2.r1.g1725b9a-1 | x86_64,aarch64,riscv64 |
@@ -50,7 +52,7 @@
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.8.1-1 | x86_64,aarch64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.8.2-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.8.2.r0.g32331e3-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.21-1 | x86_64,aarch64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r27.g2ce3f83-1 | x86_64,aarch64 |
