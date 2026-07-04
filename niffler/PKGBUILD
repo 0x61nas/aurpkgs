@@ -1,0 +1,49 @@
+# Maintainer: Anas Elgarhy <anas.elgarhy.dev@gmail.com>
+pkgname=niffler
+pkgver=0.1.6
+pkgrel=1
+pkgdesc='Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file.'
+arch=(
+    'x86_64'
+    'aarch64'
+    'riscv64'
+    'armv7'
+)
+url='https://github.com/Newt6611/niffler'
+license=(
+    'MIT'
+    'Apache-2.0'
+)
+makedepends=(
+    'cargo'
+)
+options=(
+    # !lto
+    !debug
+)
+provides=('niffler')
+conflicts=('niffler')
+source=("$pkgname-$pkgver.tar.gz::https://static.crates.io/crates/$pkgname-tui/$pkgname-tui-$pkgver.crate")
+sha256sums=('960c2b07d5c9c3aad4b05b875ed76f016fa57d6aa0ec87786c33bfc29fe6f341')
+
+prepare() {
+    cd "${pkgname}-tui-${pkgver}"
+    cargo fetch --locked --target "$CARCH-unknown-linux-gnu"
+}
+
+build() {
+    cd "${pkgname}-tui-${pkgver}"
+    export RUSTUP_TOOLCHAIN=stable
+    export CARGO_TARGET_DIR=target
+    cargo build --frozen --release
+}
+
+package() {
+    cd "${pkgname}-tui-${pkgver}"
+    install -Dm0755 target/release/niffler "$pkgdir/usr/bin/niffler"
+    install -Dm644 LICENSE-APACHE -t "$pkgdir/usr/share/licenses/$pkgname"
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE-MIT"
+    install -Dm644 -t "$pkgdir/usr/share/doc/$pkgname/" README.md
+}
+
+# vim: ts=4 sw=4 et:
