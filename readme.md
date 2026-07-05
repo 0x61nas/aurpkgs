@@ -114,8 +114,8 @@
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
-| `swpui` | Search and replace, TUI style. | 0.9.0-1 | x86_64,aarch64,riscv64 |
-| `swpui-bin` | Search and replace, TUI style. | 0.9.0-1 | x86_64,aarch64 |
+| `swpui` | Search and replace, TUI style. | 0.10.0-1 | x86_64,aarch64,riscv64 |
+| `swpui-bin` | Search and replace, TUI style. | 0.10.0-1 | x86_64,aarch64 |
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
