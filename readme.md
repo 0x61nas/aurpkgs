@@ -42,8 +42,10 @@
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.10.0.r0.g5e35338-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
+| `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
+| `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4-1 | x86_64,aarch64,riscv64,armv7 |
-| `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-2 | x86_64,aarch64,riscv64,armv7 |
+| `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-3 | x86_64,aarch64,riscv64,armv7 |
 | `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.2.r1.g1725b9a-1 | x86_64,aarch64,riscv64 |
@@ -74,6 +76,8 @@
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0.r20.g5ce463c-1 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.3-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1.r3.g94449ca-1 | x86_64,aarch64,riscv64 |
+| `niffler` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | 0.1.6-1 | x86_64,aarch64,riscv64,armv7 |
+| `niffler-git` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | r13.e4689ba-1 | x86_64,aarch64,riscv64,armv7 |
 | `nnd-git` | A debugger for Linux | 0.78.r0.gf62de96-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
@@ -102,8 +106,8 @@
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
 | `shellql` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `shellql-git` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7.beta.r0.g503bbf1-1 | x86_64,aarch64,riscv64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.4.3-1 | x86_64,aarch64,riscv64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.4.3-1 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.4.5-1 | x86_64,aarch64,riscv64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.4.5-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.10.0-1 | x86_64,aarch64,riscv64 |
