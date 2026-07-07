@@ -44,7 +44,7 @@
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
 | `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
-| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.3.0-1 | x86_64,aarch64,riscv64,armv7 |
+| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.3.0-2 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-3 | x86_64,aarch64,riscv64,armv7 |
 | `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
@@ -83,8 +83,8 @@
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
-| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0-1 | x86_64,aarch64,riscv64 |
-| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0-1 | x86_64,aarch64 |
+| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.8.0-1 | x86_64,aarch64,riscv64 |
+| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.8.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0.r0.ga68becc-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64,riscv64 |
