@@ -53,9 +53,9 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.8.2-1 | x86_64,aarch64 |
-| `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.8.2.r0.g32331e3-1 | x86_64,aarch64,riscv64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.9.0-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.9.0-1 | x86_64,aarch64 |
+| `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.9.0.r3.gb10be5f-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.21-1 | x86_64,aarch64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r27.g2ce3f83-1 | x86_64,aarch64 |
 | `hys` | Terminal RSS Reader for Digital Minimalists in Zig. | 0.2.0-1 | x86_64 |
