@@ -18,8 +18,8 @@
 | `autolock-git` | A minimal X11 idle-watcher | 0.4.r2.gae68f56-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64,aarch64,riscv64 |
-| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0-1 | x86_64 |
+| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.1-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.1-1 | x86_64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0.r0.gfa550f2-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64 |
@@ -106,8 +106,8 @@
 | `selx-git` | Minimal X11 selection tool | 2.0.0.r0.gcff1781-1 | i686,x86_64 |
 | `shellql` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7-1 | x86_64,aarch64,riscv64 |
 | `shellql-git` | A Vim- and tmux-inspired terminal database manager for developers | 0.1.7.beta.r0.g503bbf1-1 | x86_64,aarch64,riscv64 |
-| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.5.1-1 | x86_64,aarch64,riscv64 |
-| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.5.1-1 | x86_64 |
+| `smolvm` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.6.0-1 | x86_64,aarch64,riscv64 |
+| `smolvm-bin` | Tool to build & run portable, lightweight, self-contained virtual machines. | 1.6.0-1 | x86_64 |
 | `smolvm-git` | Tool to build & run portable, lightweight, self-contained virtual machines. | 0.7.1.r11.gfea85d2-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
 | `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.10.0-1 | x86_64,aarch64,riscv64 |
