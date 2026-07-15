@@ -128,7 +128,7 @@
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.4-1 | x86_64,aarch64,riscv64 |
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
-| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.6.3-1 | x86_64,aarch64 |
+| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.7.1-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
 | `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
