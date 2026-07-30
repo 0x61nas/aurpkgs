@@ -91,8 +91,8 @@
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.8.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0.r0.ga68becc-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7-1 | x86_64,aarch64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.5.0-1 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.5.0-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7.r0.g759cf89-1 | x86_64,aarch64,riscv64 |
 | `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
 | `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
@@ -134,6 +134,7 @@
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
 | `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.7.1-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
+| `usbtree-git` | Live USB device tree in your terminal. | 0.1.0.r3.g26a20ba-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
