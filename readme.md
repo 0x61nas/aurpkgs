@@ -40,7 +40,7 @@
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.25.10.r0.g5acb1bf-1 | x86_64,aarch64 |
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.10.0.r0.g5e35338-1 | x86_64,aarch64,riscv64 |
-| `fitui` | Terminal-based personal finance tracker | 0.3.0-1 | x86_64,aarch64 |
+| `fitui` | Terminal-based personal finance tracker | 1.0.1-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
 | `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
