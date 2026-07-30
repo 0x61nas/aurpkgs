@@ -24,8 +24,8 @@
 | `chess-cat` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64 |
 | `chess-cat-git` | Visualize chess boards in your terminal | r16.56350e2-1 | x86_64,aarch64,riscv64 |
-| `classfi` | A simple classical music player | 0.2.0-1 | x86_64,aarch64,riscv64 |
-| `classfi-bin` | A simple classical music player | 0.2.0-1 | x86_64 |
+| `classfi` | A simple classical music player | 0.2.1-1 | x86_64,aarch64,riscv64 |
+| `classfi-bin` | A simple classical music player | 0.2.1-1 | x86_64 |
 | `classfi-git` | A simple classical music player | 0.2.0.r0.g5711a90-1 | x86_64,aarch64,riscv64 |
 | `cmus-rpc` | A Discord Rich Presence for cmus player using java | 2.0.0-3 | any |
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
