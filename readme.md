@@ -31,7 +31,7 @@
 | `cmus-rpc-rs` | A Discord Rich Presence for cmus player using rust | 0.2.0-3 | x86_64,aarch64 |
 | `ctags-lsp` | LSP implementation using universal-ctags as backend | 0.11.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `ctags-lsp-git` | LSP implementation using universal-ctags as backend - Build from the main branch | 0.11.0.r8.gfe3d1f8-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `darya` |  Disk usage explorer with a TUI and live treemap | 0.1.5-1 | x86_64,aarch64 |
+| `darya` |  Disk usage explorer with a TUI and live treemap | 0.1.6-1 | x86_64,aarch64 |
 | `darya-git` |  Disk usage explorer with a TUI and live treemap | 0.1.5.r1.g1f70c99-1 | x86_64,aarch64 |
 | `deadbranch-git` | Clean up stale git branches safely. | 0.1.0.r58.g755c838-1 | x86_64,aarch64 |
 | `dealve` | Delve into game deals from your terminal | 1.0.2-1 | x86_64,aarch64 |
@@ -67,6 +67,9 @@
 | `jls` | A modern ls with java. | 0:0.3.5-3 | any |
 | `jolt-git` | TUI-based battery and energy monitor. | 1.2.0.r33.g7784131-1 | x86_64,aarch64 |
 | `jpwd` | A modern alternative to GNU/pwd using Java | 0.0.5-2 | any |
+| `leaves` | A text-mode disk usage visualization utility. | 0.2.0-1 | x86_64,aarch64,riscv64 |
+| `leaves-bin` | A text-mode disk usage visualization utility. | 0.2.0-1 | x86_64 |
+| `leaves-git` | A text-mode disk usage visualization utility. | 0.2.0.cross.r1.g6805bfa-1 | x86_64,aarch64,riscv64 |
 | `livediff-git` | Real-time file monitoring with beautiful, pulsing TUI diff visualization | 0.3.0.r10.g9ff519d-1 | x86_64,aarch64,riscv64 |
 | `llmfit-git` | Hundreds of models & providers. One command to find what runs on your hardware. | 0.9.35.r0.gc50d135-1 | x86_64,aarch64,armv7h,riscv64 |
 | `lpx-bin` | Terminal Animated GIF Viewer (Pre built binary) | 0.1.0-1 | x86_64,aarch64 |
