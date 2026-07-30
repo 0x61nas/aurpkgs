@@ -44,7 +44,7 @@
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
 | `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
-| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.3.0-2 | x86_64,aarch64,riscv64,armv7 |
+| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.4.0-1 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-3 | x86_64,aarch64,riscv64,armv7 |
 | `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
