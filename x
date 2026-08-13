@@ -25,7 +25,7 @@ Usage: x <command> [args]
 Commands:
   readme                    Generate readme.md from package metadata
   update-vcs                Update VCS (-git) packages
-  publish <package>         Publish a package via aurpublish
+  publish <package>         Publish a package via aurpublish.bash
   upgrade <pkg> <ver>       Upgrade a package to a new version
   push [flags] [branch]     Push branch to all remotes (default: -u aurora)
   push-tags                 Push tags to all remotes
@@ -130,7 +130,7 @@ publish() {
         exit 1
     fi
     echo -e "Publishing $pkg"
-    aurpublish -s  "$pkg"
+    bash ./aurpublish.bash -s  "$pkg"
     ok "published $pkg"
 }
 
@@ -166,7 +166,8 @@ upgrade() {
         sed -i "s/^pkgrel=.*$/pkgrel=1/" "$dir/PKGBUILD"
         ./update-sums.sh "$dir/PKGBUILD"
         (cd "$dir" && makepkg -sc)
-        git add "$dir/PKGBUILD"
+        (cd "$dir" && makepkg --printsrcinfo > ".SRCINFO")
+        git add "$dir/PKGBUILD" "$dir/.SRCINFO"
         git commit --allow-empty -m "upgrade($dir): ${ver}"
         ok "upgraded $dir to ${ver}"
     done
