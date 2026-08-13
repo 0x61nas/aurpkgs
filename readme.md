@@ -14,7 +14,7 @@
 | `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.1.r4.g27b258b-1 | i686,x86_64 |
 | `archy-st` | Simple terminal emulator for X with some patches applied | 0.10.3-3 | i686,x86_64 |
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
-| `autolock` | A minimal X11 idle-watcher | 0.4-1 | x86_64,aarch64 |
+| `autolock` | A minimal X11 idle-watcher | 0.5-1 | x86_64,aarch64 |
 | `autolock-git` | A minimal X11 idle-watcher | 0.4.r2.gae68f56-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
