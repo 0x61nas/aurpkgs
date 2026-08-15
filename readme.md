@@ -46,8 +46,8 @@
 | `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.4.0-1 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-3 | x86_64,aarch64,riscv64,armv7 |
-| `ghr` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64,riscv64 |
-| `ghr-bin` | GitHub in your terminal | 0.8.2-1 | x86_64,aarch64 |
+| `ghr` | GitHub in your terminal | 0.9.0-1 | x86_64,aarch64,riscv64 |
+| `ghr-bin` | GitHub in your terminal | 0.9.0-1 | x86_64,aarch64 |
 | `ghr-git` | GitHub in your terminal | 0.8.2.r1.g1725b9a-1 | x86_64,aarch64,riscv64 |
 | `giff-git` | A terminal-based Git diff viewer with interactive rebase capabilities | 1.2.0.r3.ga5dd673-1 | x86_64,aarch64,riscv64 |
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
@@ -78,7 +78,7 @@
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r3.g44f3cb4-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0.r20.g5ce463c-1 | x86_64,aarch64 |
-| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.3-1 | x86_64,aarch64,riscv64 |
+| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.5-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1.r3.g94449ca-1 | x86_64,aarch64,riscv64 |
 | `niffler` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | 0.1.6-1 | x86_64,aarch64,riscv64,armv7 |
 | `niffler-git` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | r13.e4689ba-1 | x86_64,aarch64,riscv64,armv7 |
