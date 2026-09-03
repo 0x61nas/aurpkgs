@@ -134,7 +134,7 @@
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.6.0-1 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
-| `tuicr` | a terminal UI for local code review (vibe-coded) | 0.17.1-1 | x86_64,aarch64,riscv64 |
+| `tuicr` | a terminal UI for local code review (vibe-coded) | 0.25.0-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.4-1 | x86_64,aarch64,riscv64 |
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
