@@ -148,8 +148,14 @@ update-vcs() {
 upgrade() {
     local pkg="${1-}"
     local ver="${2-}"
+    local skip_build="${3-}"
     if [[ -z "$pkg" || -z "$ver" ]]; then
-        echo -e "Error: usage: x upgrade <package> <version>" >&2
+        echo -e "Error: usage: x upgrade <package> <version> [--skip-build]" >&2
+        exit 1
+    fi
+
+    if [[ -n "$skip_build" && "$skip_build" != "--skip-build" ]]; then
+        echo -e "Error: unknown option \`$skip_build\`"
         exit 1
     fi
 
@@ -165,7 +171,7 @@ upgrade() {
         sed -i "s/^pkgver=.*$/pkgver=${ver}/" "$dir/PKGBUILD"
         sed -i "s/^pkgrel=.*$/pkgrel=1/" "$dir/PKGBUILD"
         ./update-sums.sh "$dir/PKGBUILD"
-        (cd "$dir" && makepkg -sc)
+        [[ -z "$skip_build" ]] && (cd "$dir" && makepkg -sc)
         (cd "$dir" && makepkg --printsrcinfo > ".SRCINFO")
         git add "$dir/PKGBUILD" "$dir/.SRCINFO"
         git commit --allow-empty -m "upgrade($dir): ${ver}"
