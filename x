@@ -171,7 +171,9 @@ upgrade() {
         sed -i "s/^pkgver=.*$/pkgver=${ver}/" "$dir/PKGBUILD"
         sed -i "s/^pkgrel=.*$/pkgrel=1/" "$dir/PKGBUILD"
         ./update-sums.sh "$dir/PKGBUILD"
-        [[ -z "$skip_build" ]] && (cd "$dir" && makepkg -sc)
+        if [[ -z "$skip_build" ]]; then
+            (cd "$dir" && makepkg -sc) || exit 1
+        fi
         (cd "$dir" && makepkg --printsrcinfo > ".SRCINFO")
         git add "$dir/PKGBUILD" "$dir/.SRCINFO"
         git commit --allow-empty -m "upgrade($dir): ${ver}"
@@ -218,7 +220,7 @@ case $arg in
     publish|pub) publish "${1-}" ;;
     readme|r) readme ;;
     update-vcs|update-vcs-packages|uv) update-vcs ;;
-    upgrade|up) upgrade "${1-}" "${2-}" ;;
+    upgrade|up) upgrade "$@" ;;
     version|ver|pkgver) pkg-version "${1-}" ;;
     clean|c) clean ;;
     *) error "$arg" ;;
