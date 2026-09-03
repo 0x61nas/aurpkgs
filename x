@@ -166,6 +166,13 @@ upgrade() {
         dir="${pkg}${suffix}"
         [[ -d "$dir" ]] || continue
 
+        unset _publish
+        source "$dir/PKGBUILD"
+        if [[ "${_publish-false}" == "false" ]]; then
+            warn "skipping $dir (publish disabled)"
+            continue
+        fi
+
         info "processing $dir..."
 
         sed -i "s/^pkgver=.*$/pkgver=${ver}/" "$dir/PKGBUILD"
@@ -188,6 +195,12 @@ upgrade() {
     for suffix in "" "-bin"; do
         dir="${pkg}${suffix}"
         [[ -d "$dir" ]] || continue
+
+        unset _publish
+        source "$dir/PKGBUILD"
+        if [[ "${_publish-false}" == "false" ]]; then
+            continue
+        fi
         publish "$dir"
     done
 
