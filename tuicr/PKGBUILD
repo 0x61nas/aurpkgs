@@ -1,6 +1,6 @@
 # Maintainer: Anas Elgarhy <anas.elgarhy.dev@gmail.com>
 pkgname=tuicr
-pkgver=0.17.1
+pkgver=0.25.0
 pkgrel=1
 pkgdesc='a terminal UI for local code review (vibe-coded)'
 arch=(
@@ -23,7 +23,7 @@ conflicts=(
     'tuicr-bin'
 )
 source=("$pkgname-$pkgver.tar.gz::$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('7c1396ca355e45d13a597a451e921b520690931c2aa7152f82b5fb4204179f35')
+sha256sums=('e7553c629d89c3fae2845a21bddf365cc542e0d2f2eed01e2fb5ad7017bd81fc')
 
 prepare() {
     cd "$pkgname-$pkgver"
