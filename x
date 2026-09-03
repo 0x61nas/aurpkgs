@@ -198,7 +198,7 @@ upgrade() {
 
         unset _publish
         source "$dir/PKGBUILD"
-        if [[ "${_publish-false}" == "false" ]]; then
+        if [[ "${_publish-true}" == "false" ]]; then
             continue
         fi
         publish "$dir"
