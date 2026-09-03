@@ -182,6 +182,7 @@ pkgs.mkShell {
     gnugrep
     gnused
     gawk
+    libarchive
   ];
 
   shellHook = ''
