@@ -10,6 +10,7 @@ arch=(
 )
 url='https://github.com/agavra/tuicr'
 license=('MIT')
+_publish=false
 makedepends=(
     'cargo'
 )
