@@ -78,7 +78,7 @@
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r3.g44f3cb4-1 | x86_64 |
 | `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0.r20.g5ce463c-1 | x86_64,aarch64 |
-| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.5-1 | x86_64,aarch64,riscv64 |
+| `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.6-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1.r3.g94449ca-1 | x86_64,aarch64,riscv64 |
 | `niffler` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | 0.1.6-1 | x86_64,aarch64,riscv64,armv7 |
 | `niffler-git` | Trello-like Kanban board for the terminal. No database. Every card is just a local Markdown file. | r13.e4689ba-1 | x86_64,aarch64,riscv64,armv7 |
