@@ -14,7 +14,7 @@
 | `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.1.r4.g27b258b-1 | i686,x86_64 |
 | `archy-st` | Simple terminal emulator for X with some patches applied | 0.10.3-3 | i686,x86_64 |
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
-| `autolock` | A minimal X11 idle-watcher | 0.5-1 | x86_64,aarch64 |
+| `autolock` | A minimal X11 idle-watcher | 1.0-1 | x86_64,aarch64 |
 | `autolock-git` | A minimal X11 idle-watcher | 0.4.r2.gae68f56-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
@@ -132,7 +132,7 @@
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-1 | x86_64,aarch64 |
-| `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.7.0-1 | x86_64 |
+| `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.7.0-2 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
 | `tuicr` | a terminal UI for local code review (vibe-coded) | 0.25.0-1 | x86_64,aarch64,riscv64 |
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
