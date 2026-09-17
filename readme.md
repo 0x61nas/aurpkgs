@@ -120,7 +120,7 @@
 | `smyx-bin` | Navidrome player for the terminal. With reactive themes. | 0.2.7-1 | x86_64 |
 | `smyx-git` | Navidrome player for the terminal. With reactive themes. | 0.2.7.r5.g2638e92-1 | x86_64,aarch64,riscv64 |
 | `snglrtty-git` | Terminal audio visualizer — singularity in your TTY | 0.1.0.r2.g1a9c223-1 | x86_64 |
-| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.10.0-1 | x86_64,aarch64,riscv64 |
+| `splashboard` | A customizable terminal splash screen with plugin-based data sources | 2.10.1-1 | x86_64,aarch64,riscv64 |
 | `splashboard-git` | A customizable terminal splash screen with plugin-based data sources | 2.6.0.r1.gc53f6da-1 | x86_64,aarch64,riscv64 |
 | `strace-tui-bin` | A terminal user interface (TUI) for visualizing and exploring strace output - Binary build | 1.0.1-1 | x86_64 |
 | `strace-tui-git` |  A terminal user interface (TUI) for visualizing and exploring strace output | 1.0.1.r1.gd70b4bf-1 | x86_64,aarch64 |
