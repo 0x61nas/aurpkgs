@@ -90,12 +90,12 @@
 | `o2-rs-git` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.4.r2.gbb3aa59-1 | x86_64,aarch64,riscv64 |
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
-| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.13.0-1 | x86_64,aarch64,riscv64 |
+| `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.14.0-1 | x86_64,aarch64,riscv64 |
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.13.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0.r0.ga68becc-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.5.1-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.5.1-1 | x86_64,aarch64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-1 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-1 | x86_64,aarch64 |
 | `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7.r0.g759cf89-1 | x86_64,aarch64,riscv64 |
 | `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
 | `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
@@ -131,7 +131,7 @@
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
-| `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-1 | x86_64,aarch64 |
+| `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-2 | x86_64,aarch64 |
 | `tsql-bin` | A modern PostgreSQL and MongoDB manager TUI - Binary build | 0.7.0-2 | x86_64 |
 | `tsql-git` | A modern PostgreSQL and MongoDB manager TUI | 0.6.0.r0.g63e5891-1 | x86_64,aarch64 |
 | `tuicr` | a terminal UI for local code review (vibe-coded) | 0.25.0-1 | x86_64,aarch64,riscv64 |
