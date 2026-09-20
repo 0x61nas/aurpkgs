@@ -14,12 +14,12 @@
 | `archy-slstatus-git` | A suckless status monitor for dwm | 1.0.1.r4.g27b258b-1 | i686,x86_64 |
 | `archy-st` | Simple terminal emulator for X with some patches applied | 0.10.3-3 | i686,x86_64 |
 | `archy-st-git` | Simple terminal emulator for X with some patches applied | 0.10.3.r0.g7775631-1 | i686,x86_64 |
-| `autolock` | A minimal X11 idle-watcher | 1.0-1 | x86_64,aarch64 |
-| `autolock-git` | A minimal X11 idle-watcher | 0.4.r2.gae68f56-1 | x86_64,aarch64 |
+| `autolock` | A minimal X11 autolocker | 1.2-1 | x86_64,aarch64 |
+| `autolock-git` | A minimal X11 autolocker | 0.5.r3.g782664a-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.1-1 | x86_64,aarch64,riscv64 |
-| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.1-1 | x86_64 |
+| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.6.1-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.6.1-1 | x86_64,aarch64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0.r0.gfa550f2-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.1.0-1 | x86_64 |
@@ -53,8 +53,8 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.15.0-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.15.0-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.16.1-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.16.0-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.9.0.r3.gb10be5f-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64,aarch64 |
 | `hygg-bin` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64 |
@@ -76,7 +76,7 @@
 | `lpx-git` | Terminal Animated GIF Viewer | 0.1.0.r11.g93063f6-1 | x86_64,aarch64 |
 | `lqth` | Simple but blazingly fast screenshot utility | 0.2.5-2 | x86_64 |
 | `lqth-git` | Simple but blazingly fast screenshot utility | 0.2.5.r3.g44f3cb4-1 | x86_64 |
-| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0-2 | x86_64,aarch64 |
+| `lrcget` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.2.0-1 | x86_64,aarch64 |
 | `lrcget-git` | Utility for mass-downloading LRC synced lyrics for your offline music library. | 2.1.0.r20.g5ce463c-1 | x86_64,aarch64 |
 | `matchmaker` | A fast, configurable and intuitive fuzzy searcher. | 0.1.6-1 | x86_64,aarch64,riscv64 |
 | `matchmaker-git` | A fast, configurable and intuitive fuzzy searcher. | 0.1.1.r3.g94449ca-1 | x86_64,aarch64,riscv64 |
@@ -91,7 +91,7 @@
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
 | `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.14.0-1 | x86_64,aarch64,riscv64 |
-| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.13.0-1 | x86_64,aarch64 |
+| `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.14.0-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0.r0.ga68becc-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
 | `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-1 | x86_64,aarch64,riscv64 |
