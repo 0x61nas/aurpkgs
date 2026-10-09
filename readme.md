@@ -151,7 +151,7 @@
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.3.2-1 | x86_64,aarch64 |
+| `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.4.0-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.3-1 | x86_64 |
 | `zlob-git` | A fast SIMD-accelerated glob pattern matcher | 1.3.3.r0.g73cf013-1 | x86_64 |
 
