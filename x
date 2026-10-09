@@ -2,6 +2,9 @@
 
 set -euo pipefail
 
+readonly DOCKER_BUILDER_IMAGE_NAME='aurpkgs-builder:latest'
+readonly SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" &>/dev/null && pwd)"
+
 REPO_NAME='aurpkgs'
 declare -A GIT_REMOTES=(
     [github]="git@github.com:0x61nas/${REPO_NAME}.git"
@@ -12,6 +15,14 @@ declare -A GIT_REMOTES=(
     [gitgud]="git@ssh.gitgud.io:anelgarhy/${REPO_NAME}.git"
     [codefloe]="ssh://git@codefloe.com/anas/${REPO_NAME}.git"
 )
+
+source /etc/os-release
+if [[ "$ID" == "arch" ]]; then
+    readonly ITS_ARCH_BTW=true
+else
+    readonly ITS_ARCH_BTW=false
+fi
+unset ID
 
 ok()   { echo -e "  $1"; }
 fail() { echo -e "  $1"; }
@@ -35,6 +46,28 @@ Commands:
   help                      Show this help message
 EOF
     exit 0
+}
+preper_builder_image() {
+    info "Checking if $DOCKER_BUILDER_IMAGE_NAME is available..."
+
+    if docker image inspect "$DOCKER_BUILDER_IMAGE_NAME" &>/dev/null; then
+        info "$DOCKER_BUILDER_IMAGE_NAME is already built"
+    else
+        info "Building $DOCKER_BUILDER_IMAGE_NAME..."
+        docker build -t "$DOCKER_BUILDER_IMAGE_NAME" -f "$SCRIPT_DIR/builder.dockerfile" "$SCRIPT_DIR" || return $?
+    fi
+}
+
+run_on_docker() {
+    local workspace="${1-}"
+    local cmd="${2-}"
+    
+    docker run --rm -it \
+      -v pacman-cache:/var/cache/pacman/pkg \
+      -v "$workspace:/workspace" \
+      -w /workspace \
+      "$DOCKER_BUILDER_IMAGE_NAME" \
+      bash -c "$cmd"
 }
 
 error() {
@@ -178,10 +211,25 @@ upgrade() {
         sed -i "s/^pkgver=.*$/pkgver=${ver}/" "$dir/PKGBUILD"
         sed -i "s/^pkgrel=.*$/pkgrel=1/" "$dir/PKGBUILD"
         ./update-sums.sh "$dir/PKGBUILD"
+        local abs_dir
+        abs_dir="$(cd "$dir" && pwd)"
+
         if [[ -z "$skip_build" ]]; then
-            (cd "$dir" && makepkg -sc) || exit 1
+            if [[ "$ITS_ARCH_BTW" == true ]]; then
+                (cd "$dir" && makepkg -sc) || exit 1
+            else
+                info "You are not on the Arch/Arch based system"
+                info "Will use docker to build..."
+                preper_builder_image
+                run_on_docker "$abs_dir" 'makepkg -sc' || exit 1
+            fi
         fi
-        (cd "$dir" && makepkg --printsrcinfo > ".SRCINFO")
+
+        if [[ "$ITS_ARCH_BTW" == true ]]; then
+            (cd "$dir" && makepkg --printsrcinfo > .SRCINFO)
+        else
+            run_on_docker "$abs_dir" 'makepkg --printsrcinfo > .SRCINFO'
+        fi
         git add "$dir/PKGBUILD" "$dir/.SRCINFO"
         git commit --allow-empty -m "upgrade($dir): ${ver}"
         ok "upgraded $dir to ${ver}"
