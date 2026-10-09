@@ -36,7 +36,8 @@ Usage: x <command> [args]
 Commands:
   readme                    Generate readme.md from package metadata
   update-vcs                Update VCS (-git) packages
-  publish <package>         Publish a package via aurpublish.bash
+  publish <package> [--skip-build]
+                            Publish a package via aurpublish.bash
   upgrade <pkg> <ver>       Upgrade a package to a new version
   push [flags] [branch]     Push branch to all remotes (default: -u aurora)
   push-tags                 Push tags to all remotes
@@ -156,14 +157,69 @@ push-tags() {
 }
 
 publish() {
-    local pkg="${1-}"
+    local pkg=""
+    local skip_build=""
+
+    for arg in "$@"; do
+        if [[ "$arg" == "--skip-build" ]]; then
+            skip_build="--skip-build"
+        elif [[ -z "$pkg" ]]; then
+            pkg="$arg"
+        fi
+    done
+
     if [[ -z "$pkg" ]]; then
         echo -e "Error: package name required" >&2
-        echo "Usage: x publish <package>" >&2
+        echo "Usage: x publish <package> [--skip-build]" >&2
         exit 1
     fi
+
+    local dir="$pkg"
+    if [[ ! -d "$dir" ]]; then
+        echo -e "Error: '$dir' is not a package directory" >&2
+        exit 1
+    fi
+
     echo -e "Publishing $pkg"
-    bash ./aurpublish.bash -s  "$pkg"
+
+    unset _publish pkgname pkgver
+    source "$dir/PKGBUILD"
+
+    if [[ "${_publish-true}" == "false" ]]; then
+        warn "skipping $dir (publish disabled)"
+        return 0
+    fi
+
+    local abs_dir
+    abs_dir="$(cd "$dir" && pwd)"
+
+    if [[ -z "$skip_build" ]]; then
+        if [[ "$ITS_ARCH_BTW" == true ]]; then
+            (cd "$dir" && makepkg -sc) || return 1
+        else
+            info "You are not on the Arch/Arch based system"
+            info "Will use docker to build..."
+            preper_builder_image
+            run_on_docker "$abs_dir" 'makepkg -sc' || return 1
+        fi
+    fi
+
+    local srcinfo_ver
+    srcinfo_ver="$(sed -n 's/^[[:space:]]*pkgver = //p' "$dir/.SRCINFO" 2>/dev/null | head -n1)"
+
+    if [[ -n "$(git status --porcelain -- "$dir/PKGBUILD" "$dir/.SRCINFO")" \
+        || "$srcinfo_ver" != "$pkgver" ]]; then
+        info "committing $dir ($pkgname $pkgver)..."
+        if [[ "$ITS_ARCH_BTW" == true ]]; then
+            (cd "$dir" && makepkg --printsrcinfo > .SRCINFO)
+        else
+            run_on_docker "$abs_dir" 'makepkg --printsrcinfo > .SRCINFO'
+        fi
+        git add "$dir/PKGBUILD" "$dir/.SRCINFO"
+        git commit -m "${pkgname}: init at ${pkgver}"
+    fi
+
+    bash ./aurpublish.bash -s "$pkg"
     ok "published $pkg"
 }
 
@@ -249,7 +305,7 @@ upgrade() {
         if [[ "${_publish-true}" == "false" ]]; then
             continue
         fi
-        publish "$dir"
+        publish "$dir" --skip-build
     done
 
     echo
@@ -278,7 +334,7 @@ case $arg in
     setup-remotes|sr) setup-remotes ;;
     push|p) push "$@" ;;
     push-tags|pusht|pt) push-tags "$@" ;;
-    publish|pub) publish "${1-}" ;;
+    publish|pub) publish "$@" ;;
     readme|r) readme ;;
     update-vcs|update-vcs-packages|uv) update-vcs ;;
     upgrade|up) upgrade "$@" ;;
