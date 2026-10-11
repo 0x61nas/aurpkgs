@@ -137,7 +137,7 @@
 | `tuicr-git` | a terminal UI for local code review | 0.10.0.r5.g206eb96-1 | x86_64,aarch64,riscv64 |
 | `tusic` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.4-1 | x86_64,aarch64,riscv64 |
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
-| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.7.1-1 | x86_64,aarch64 |
+| `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.8.1-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
 | `usbtree-git` | Live USB device tree in your terminal. | 0.1.0.r3.g26a20ba-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.2.0-1 | x86_64,aarch64,riscv64 |
@@ -149,6 +149,7 @@
 | `wtfi2-git` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0.r4.g76f245e-1 | x86_64,aarch64,riscv64 |
 | `xsetwall` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64,aarch64 |
 | `xsetwall-bin` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64 |
+| `xsetwall-git` | A minimal utility for setting wallpapers in X11 environment | 1.0.3.r0.g9c42ca1-1 | x86_64,aarch64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
