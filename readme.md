@@ -39,6 +39,7 @@
 | `dehub-git` | A TUI to de-GitHub yourself. Control PRs, Actions, Issues, Notifications. | r671.5f4b2f8-1 | x86_64,aarch64,riscv64 |
 | `dol` | Detect dark/light mode on the CLI | 0.2.0-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `drag` | A minimal X11 drag-and-drop utility. | 1.1-1 | x86_64,aarch64 |
+| `drag-git` | A minimal X11 drag-and-drop utility. | 1.1.r0.gc952132-1 | x86_64,aarch64 |
 | `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.25.10.r0.g5acb1bf-1 | x86_64,aarch64 |
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.10.0.r0.g5e35338-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 1.0.1-1 | x86_64,aarch64 |
@@ -54,8 +55,8 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.16.1-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.16.0-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.9.0.r3.gb10be5f-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64,aarch64 |
 | `hygg-bin` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64 |
