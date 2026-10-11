@@ -148,6 +148,7 @@
 | `wtfi2-bin` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0-1 | x86_64,aarch64 |
 | `wtfi2-git` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0.r4.g76f245e-1 | x86_64,aarch64,riscv64 |
 | `xsetwall` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64,aarch64 |
+| `xsetwall-bin` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
