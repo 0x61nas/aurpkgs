@@ -87,8 +87,8 @@
 | `nnd-git` | A debugger for Linux | 0.78.r0.gf62de96-1 | x86_64,aarch64,riscv64 |
 | `nota.zsh` | ZSH plugin that help you record notas with some context. | 1.0.0-2 | any |
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
-| `o2-rs` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.5-1 | x86_64,aarch64,riscv64 |
-| `o2-rs-bin` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.5-1 | x86_64,aarch64 |
+| `o2-rs` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.7-1 | x86_64,aarch64,riscv64 |
+| `o2-rs-bin` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.7-1 | x86_64,aarch64 |
 | `o2-rs-git` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.4.r2.gbb3aa59-1 | x86_64,aarch64,riscv64 |
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
