@@ -89,7 +89,7 @@
 | `nota.zsh-git` | ZSH plugin that help you record notas with some context. | 1.0.0.r0.gcc1b6c5-1 | any |
 | `o2-rs` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.7-1 | x86_64,aarch64,riscv64 |
 | `o2-rs-bin` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.7-1 | x86_64,aarch64 |
-| `o2-rs-git` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.4.r2.gbb3aa59-1 | x86_64,aarch64,riscv64 |
+| `o2-rs-git` | Rust port of the ORCΛ esoteric programming language and terminal livecoding environment | 0.3.7.r0.g4c8a210-1 | x86_64,aarch64,riscv64 |
 | `owl-write` | Quick spellcheck TUI | 0.5.0-1 | x86_64,aarch64,riscv64 |
 | `owl-write-git` | Quick spellcheck TUI | 0.5.0.r4.g2424d09-1 | x86_64,aarch64,riscv64 |
 | `patent` | A prior-art search for your code ideas. Stop building what already exists. | 0.14.0-1 | x86_64,aarch64,riscv64 |
@@ -146,8 +146,8 @@
 | `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
-| `wtfi2` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0-1 | x86_64,aarch64,riscv64 |
-| `wtfi2-bin` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0-1 | x86_64,aarch64 |
+| `wtfi2` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.7.0-1 | x86_64,aarch64,riscv64 |
+| `wtfi2-bin` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.7.0-1 | x86_64,aarch64 |
 | `wtfi2-git` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0.r4.g76f245e-1 | x86_64,aarch64,riscv64 |
 | `xsetwall` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64,aarch64 |
 | `xsetwall-bin` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64 |
