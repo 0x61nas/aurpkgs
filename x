@@ -39,6 +39,7 @@ Commands:
   publish <package> [--skip-build]
                             Publish a package via aurpublish.bash
   upgrade <pkg> <ver>       Upgrade a package to a new version
+  run <cmt>                 Run a command under Arch environment
   push [flags] [branch]     Push branch to all remotes (default: -u aurora)
   push-tags                 Push tags to all remotes
   clean                     Remove untracked files and directories
@@ -312,6 +313,15 @@ upgrade() {
     ok "upgrade complete"
 }
 
+run_cmd() {
+    local cmd="$@"
+    if [[ "$ITS_ARCH_BTW" == true ]]; then
+        "$cmd"
+    else
+        run_on_docker "$(pwd)" "$cmd"
+    fi
+}
+
 pkg-version() {
     local pkg="${1-}"
     source "$pkg/PKGBUILD"
@@ -338,6 +348,7 @@ case $arg in
     readme|r) readme ;;
     update-vcs|update-vcs-packages|uv) update-vcs ;;
     upgrade|up) upgrade "$@" ;;
+    cmd|run) run_cmd "$@" ;;
     version|ver|pkgver) pkg-version "${1-}" ;;
     clean|c) clean ;;
     *) error "$arg" ;;
