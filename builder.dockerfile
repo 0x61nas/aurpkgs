@@ -1,6 +1,7 @@
 FROM archlinux:base-devel@sha256:996c3a1d6b0d87b01242f6fcd8cfa3ad3eece1a67ab5c8f108e20af1d7b97bdd
 
 RUN pacman -Syu --noconfirm \
+    && pacman -Fy \
     && pacman -S --needed --noconfirm git sudo \
     && useradd --create-home --uid 1000 --user-group ThaBuilder \
     && install -d -m 0750 /etc/sudoers.d \
