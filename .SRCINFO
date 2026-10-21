@@ -1,0 +1,22 @@
+pkgbase = typepper-git
+	pkgdesc = A spicy little typing game for your terminal.
+	pkgver = 0.2.0.r2.g49a6d25
+	pkgrel = 1
+	url = https://github.com/leodiegues/typepper
+	arch = x86_64
+	arch = aarch64
+	arch = riscv64
+	license = GPL-3.0-or-later
+	makedepends = cargo
+	makedepends = git
+	provides = typepper
+	conflicts = typepper
+	conflicts = typepper-bin
+	options = !lto
+	options = !debug
+	source = typepper-main::git+https://github.com/leodiegues/typepper.git#branch=main
+	source = typepper.desktop
+	sha256sums = SKIP
+	sha256sums = 4883d7befe7104f709a566b75659b335c9ba4d1edcd139eccf87bb92ec0917ae
+
+pkgname = typepper-git
