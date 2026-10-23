@@ -220,7 +220,7 @@ publish() {
         git commit -m "${pkgname}: init at ${pkgver}"
     fi
 
-    bash ./aurpublish.bash -s "$pkg"
+    bash ./aurpublish.bash "$pkg"
     ok "published $pkg"
 }
 
