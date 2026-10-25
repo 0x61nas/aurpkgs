@@ -42,6 +42,7 @@
 | `drag-git` | A minimal X11 drag-and-drop utility. | 1.1.r0.gc952132-1 | x86_64,aarch64 |
 | `ekphos-git` | A lightweight, fast, terminal-based markdown research tool inspired by Obsidian | 0.25.10.r0.g5acb1bf-1 | x86_64,aarch64 |
 | `elio-git` | Snappy, batteries-included terminal file manager with rich previews, inline images, bulk actions, and trash support | 1.10.0.r0.g5e35338-1 | x86_64,aarch64,riscv64 |
+| `eprofiler-tui` | eBPF profiler flamegraph based TUI | 0.3.0-1 | x86_64,aarch64,riscv64 |
 | `fitui` | Terminal-based personal finance tracker | 1.0.1-1 | x86_64,aarch64 |
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
@@ -130,6 +131,7 @@
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
+| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.17-1 | x86_64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-2 | x86_64,aarch64 |
@@ -141,6 +143,7 @@
 | `tusic-git` | Lightweight TUI Music Player. Play from YouTube or ~/Music folder easily. | 0.1.3.r0.g7ce5e33-1 | x86_64,aarch64,riscv64 |
 | `tuxedo` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.8.1-1 | x86_64,aarch64 |
 | `tuxedo-git` | A fast, keyboard-driven terminal UI for todo.txt. | 2026.5.12.r1.gc043636-1 | x86_64,aarch64 |
+| `typepper-git` | A spicy little typing game for your terminal. | 0.2.0.r2.g49a6d25-1 | x86_64,aarch64,riscv64 |
 | `usbtree-git` | Live USB device tree in your terminal. | 0.1.0.r3.g26a20ba-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui` | TUI alternative to v4l-ctl or cameractrls | 0.2.0-1 | x86_64,aarch64,riscv64 |
 | `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
