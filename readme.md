@@ -131,7 +131,7 @@
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
-| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.17-1 | x86_64 |
+| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.19-1 | x86_64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-2 | x86_64,aarch64 |
