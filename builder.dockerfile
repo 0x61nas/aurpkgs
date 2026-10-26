@@ -1,6 +1,6 @@
 FROM archlinux:base-devel@sha256:3cbf69d2d5958d6a294f3722c5668e6187c4df8e00fa27f72352f0bf83e495e1
 
-RUN pacman -Syu --noconfirm \
+RUN pacman -Syyu --noconfirm \
     && pacman -Fy \
     && pacman -S --needed --noconfirm git sudo \
     && useradd --create-home --uid 1000 --user-group ThaBuilder \
