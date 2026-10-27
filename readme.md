@@ -59,6 +59,9 @@
 | `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64,riscv64 |
 | `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.9.0.r3.gb10be5f-1 | x86_64,aarch64,riscv64 |
+| `grimoire-tui` | A terminal writing desk for novels | 0.7.5-1 | x86_64,aarch64,riscv64 |
+| `grimoire-tui-bin` | A terminal writing desk for novels | 0.7.5-1 | x86_64,aarch64 |
+| `grimoire-tui-git` | A terminal writing desk for novels | 0.7.5.r0.gf3ca1e8-1 | x86_64,aarch64,riscv64 |
 | `hygg` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64,aarch64 |
 | `hygg-bin` | Minimalistic Vim-like TUI document reader. | 0.1.24-1 | x86_64 |
 | `hygg-git` | Minimalistic Vim-like TUI document reader - From the main branch | 0.1.21.r27.g2ce3f83-1 | x86_64,aarch64 |
@@ -131,7 +134,7 @@
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
-| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.19-1 | x86_64 |
+| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.21-1 | x86_64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-2 | x86_64,aarch64 |
