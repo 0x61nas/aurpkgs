@@ -134,6 +134,7 @@
 | `swpui-git` | Search and replace, TUI style. | 0.7.2.r5.gdfa0a03-1 | x86_64,aarch64,riscv64 |
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
+| `therapist-git` | A blazingly fast terminal log viewer: open multi-GB logs at once. | 0.1.1.r1.g32d1d06-1 | x86_64,aarch64,riscv64 |
 | `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.21-1 | x86_64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
