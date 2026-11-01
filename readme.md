@@ -100,9 +100,9 @@
 | `patent-bin` | A prior-art search for your code ideas. Stop building what already exists. | 0.14.1-1 | x86_64,aarch64 |
 | `patent-git` | A prior-art search for your code ideas. Stop building what already exists. | 0.7.0.r0.ga68becc-1 | x86_64,aarch64,riscv64 |
 | `ports-sniffer` | A simple port sniffer(scanner) implementation with 🦀 | 0.1.0-1 | x86_64 |
-| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-1 | x86_64,aarch64,riscv64 |
-| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-1 | x86_64,aarch64 |
-| `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.4.7.r0.g759cf89-1 | x86_64,aarch64,riscv64 |
+| `proxelar` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-2 | x86_64,aarch64,riscv64 |
+| `proxelar-bin` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.0-2 | x86_64,aarch64 |
+| `proxelar-git` | Programmable MITM proxy that intercepts HTTP/HTTPS traffic. With a TUI, terminal, and web GUI interface | 0.6.1.r31.gb4fed32-1 | x86_64,aarch64,riscv64 |
 | `purple` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
 | `purple-bin` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.22.1-1 | x86_64,aarch64 |
 | `purple-git` | Terminal SSH manager with provider sync, tunnels, file transfer and containers | 3.12.3.r0.g1ed5ffe-1 | x86_64,aarch64 |
@@ -135,7 +135,7 @@
 | `sxcs-git` | minimal X11 color picker and magnifier | 1.2.1.r0.g72034a5-1 | i686,x86_64 |
 | `termcraft-git` | Terminal-only 2D sandbox survival in Rust. | 0.1.0.r5.gafb8802-1 | x86_64,aarch64 |
 | `therapist-git` | A blazingly fast terminal log viewer: open multi-GB logs at once. | 0.1.1.r1.g32d1d06-1 | x86_64,aarch64,riscv64 |
-| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.22-1 | x86_64,aarch64 |
+| `toaster` | Hears whatever is playing and writes it out as live Strudel code, with visuals | 0.4.29-1 | x86_64,aarch64 |
 | `tortuise` | Gaussian splats in your terminal. | 0.1.1-1 | x86_64,aarch64,riscv64 |
 | `tortuise-git` | Gaussian splats in your terminal. | 0.1.1.r16.ga3c41d2-1 | x86_64,aarch64,riscv64 |
 | `tsql` | A modern PostgreSQL and MongoDB manager TUI | 0.7.0-2 | x86_64,aarch64 |
