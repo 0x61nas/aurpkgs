@@ -56,8 +56,8 @@
 | `git-guitar` | A terminal based git client with fast topological & chronological graph rendering | 1.0.4-1 | x86_64,aarch64 |
 | `git-guitar-bin` | A terminal based git client with fast topological & chronological graph rendering - Pre-Build binary | 1.0.4-1 | x86_64 |
 | `git-guitar-git` | A terminal based git client with fast topological & chronological graph rendering - Built form the main branch | 0.1.45.r154.g9735d5c-1 | x86_64,aarch64 |
-| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64,riscv64 |
-| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.17.1-1 | x86_64,aarch64 |
+| `gitpane` | Multi-repo Git workspace dashboard for the terminal | 0.18.4-1 | x86_64,aarch64,riscv64 |
+| `gitpane-bin` | Multi-repo Git workspace dashboard for the terminal | 0.18.4-1 | x86_64,aarch64 |
 | `gitpane-git` | Multi-repo Git workspace dashboard for the terminal | 0.9.0.r3.gb10be5f-1 | x86_64,aarch64,riscv64 |
 | `grimoire-tui` | A terminal writing desk for novels | 0.7.5-1 | x86_64,aarch64,riscv64 |
 | `grimoire-tui-bin` | A terminal writing desk for novels | 0.7.5-1 | x86_64,aarch64 |
