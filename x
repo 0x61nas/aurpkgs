@@ -249,9 +249,6 @@ upgrade() {
         exit 1
     fi
 
-    echo -e "Upgrading $pkg to $ver"
-    echo
-
     for suffix in "" "-bin"; do
         dir="${pkg}${suffix}"
         [[ -d "$dir" ]] || continue
@@ -262,8 +259,8 @@ upgrade() {
             warn "skipping $dir (publish disabled)"
             continue
         fi
-
-        info "processing $dir..."
+    
+        info "Upgrading $dir from $pkgver to $ver"
 
         sed -i "s/^pkgver=.*$/pkgver=${ver}/" "$dir/PKGBUILD"
         sed -i "s/^pkgrel=.*$/pkgrel=1/" "$dir/PKGBUILD"
@@ -287,9 +284,12 @@ upgrade() {
         else
             run_on_docker "$abs_dir" 'makepkg --printsrcinfo > .SRCINFO'
         fi
-        git add "$dir/PKGBUILD" "$dir/.SRCINFO"
-        git commit --allow-empty -m "upgrade($dir): ${ver}"
-        ok "upgraded $dir to ${ver}"
+        if ! git diff --quiet -- "$dir/PKGBUILD" "$dir/.SRCINFO" ||
+           ! git diff --cached --quiet -- "$dir/PKGBUILD" "$dir/.SRCINFO"; then
+            git add "$dir/PKGBUILD" "$dir/.SRCINFO"
+            git commit --allow-empty -m "$dir: ${pkgver} -> ${ver}"
+        fi
+        ok "upgraded the $dir package from ${pkgver} to ${ver}"
     done
 
     echo
