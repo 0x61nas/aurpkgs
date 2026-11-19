@@ -18,8 +18,8 @@
 | `autolock-git` | A minimal X11 autolocker | 0.5.r3.g782664a-1 | x86_64,aarch64 |
 | `bfy` | simple interpreter and REPL for the brainfuck language | 0.1.2-6 | x86_64 |
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.7.0-1 | x86_64,aarch64,riscv64 |
-| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.7.0-1 | x86_64,aarch64 |
+| `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.8.1-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.8.1-1 | x86_64,aarch64 |
 | `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0.r0.gfa550f2-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.2.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.2.0-1 | x86_64 |
