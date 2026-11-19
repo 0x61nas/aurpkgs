@@ -20,7 +20,7 @@
 | `bit-font` | CLI/TUI Logo Designer + ANSI Font Library with Gradients, Shadows, and Multi-Format Export | 0.3.0-2 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `budget-tracker` | Simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.8.1-1 | x86_64,aarch64,riscv64 |
 | `budget-tracker-bin` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.8.1-1 | x86_64,aarch64 |
-| `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.4.0.r0.gfa550f2-1 | x86_64,aarch64,riscv64 |
+| `budget-tracker-git` | A simple TUI budget tracker. Designed to track income and expenses and help visualize and gather basic insights from your transactions. | 1.8.1.r2.ge72e709-1 | x86_64,aarch64,riscv64 |
 | `chess-cat` |  Visualize chess boards in your terminal | 0.2.0-1 | x86_64,aarch64 |
 | `chess-cat-bin` |  Visualize chess boards in your terminal | 0.2.0-1 | x86_64 |
 | `chess-cat-git` | Visualize chess boards in your terminal | r16.56350e2-1 | x86_64,aarch64,riscv64 |
@@ -160,7 +160,7 @@
 | `xsetwall-bin` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64 |
 | `xsetwall-git` | A minimal utility for setting wallpapers in X11 environment | 1.0.3.r0.g9c42ca1-1 | x86_64,aarch64 |
 | `zen-c` | Write like a high-level language, run like C. | 0.4.4-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
-| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r133.g60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
+| `zen-c-git` | Write like a high-level language, run like C. | 0.4.4.r676.gb3f550e-1 | x86_64,aarch64,armv7h,riscv64 |
 | `zenc-git` | Write like a high-level language, run like C. | r883.60993ab-1 | x86_64,pentium4,aarch64,armv7h,riscv64 |
 | `zerobrew` | A drop-in, 5-20x faster, experimental Homebrew alternative. | 0.4.2-1 | x86_64,aarch64 |
 | `zlob` | A fast SIMD-accelerated glob pattern matcher | 1.3.3-1 | x86_64 |
