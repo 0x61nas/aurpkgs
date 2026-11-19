@@ -47,7 +47,7 @@
 | `fitui-git` | Terminal-based personal finance tracker | 0.3.0.r0.g5d5abf5-1 | x86_64,aarch64 |
 | `flerp` | A terminal UI for exploring and analyzing text files, PDFs, and images | 0.5.1-1 | x86_64,aarch64,riscv64,armv7 |
 | `flerp-git` | A terminal UI for exploring and analyzing text files, PDFs, and images | r24.35c31c7-1 | x86_64,aarch64,riscv64,armv7 |
-| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.10.0-1 | x86_64,aarch64,riscv64,armv7 |
+| `flyline-bin` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.11.0-1 | x86_64,aarch64,riscv64,armv7 |
 | `flyline-git` | Bash plugin to replace readline for a modern line editing experience: syntax highlighting, agent integration, rich prompts, tooltips, fuzzy history search, and more | 1.2.4.r0.gc4fd509-3 | x86_64,aarch64,riscv64,armv7 |
 | `ghr` | GitHub in your terminal | 0.9.1-1 | x86_64,aarch64,riscv64 |
 | `ghr-bin` | GitHub in your terminal | 0.9.1-1 | x86_64,aarch64 |
@@ -153,9 +153,9 @@
 | `v4l-tui-git` | TUI alternative to v4l-ctl or cameractrls | 0.2.0.r0.gf5f97d5-1 | x86_64,aarch64,riscv64 |
 | `wireforge-git` | Braille wireframe viewer and editor | r24.1683266-1 | x86_64,aarch64,riscv64 |
 | `wrkflw-git` | Validate and Run GitHub Actions locally. | 0.8.0.r3.g2f2892b-1 | x86_64,aarch64,riscv64 |
-| `wtfi2` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.7.0-1 | x86_64,aarch64,riscv64 |
-| `wtfi2-bin` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.7.0-1 | x86_64,aarch64 |
-| `wtfi2-git` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.6.0.r4.g76f245e-1 | x86_64,aarch64,riscv64 |
+| `wtfi2` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.10.0-1 | x86_64,aarch64,riscv64 |
+| `wtfi2-bin` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.10.0-1 | x86_64,aarch64 |
+| `wtfi2-git` | Live, visual network-path diagnostic that pinpoints exactly where your Wi-Fi connection dies | 0.10.0.r0.gf906223-1 | x86_64,aarch64,riscv64 |
 | `xsetwall` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64,aarch64 |
 | `xsetwall-bin` | A minimal utility for setting wallpapers in X11 environment | 1.0.3-1 | x86_64 |
 | `xsetwall-git` | A minimal utility for setting wallpapers in X11 environment | 1.0.3.r0.g9c42ca1-1 | x86_64,aarch64 |
